@@ -23,7 +23,8 @@ def dynamic_graph_ui():
         panel_card(
             "Select Practices to Plot",
             ui.p(
-                "Click on rows to select practices. Hold Shift or Ctrl/Cmd to select multiple.",
+                "Click on rows to select practices. Hold Shift and Ctrl/Cmd to select multiple. "
+                "(Note: 'Active GPs' refers to registered GPs with at least 1 recording)",
                 style="color: var(--color-text-secondary); font-size: 0.85rem;"
             ),
             ui.div(

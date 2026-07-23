@@ -42,8 +42,8 @@ def gp_ui():
             "GP Ranking",
             ui.output_ui("gp_ranking"),
             ui.p(
-                "Rankings are calculated among active GPs by default.",
-                style="color: var(--color-text-muted); font-size: 0.8rem;",
+                "Rankings are calculated among active GPs by default (GPs with at least 1 recording).",
+                style="color: var(--color-text-secondary); font-size: 0.8rem;",
             ),
         ),
 

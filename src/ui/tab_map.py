@@ -64,6 +64,7 @@ def _build_popup_html(
             <div style="color: #5f6368;"><b>Week:</b> {week_label}</div>
             <div><b>This week:</b> {weekly_display}</div>
             <div><b>Cumulative:</b> {cumulative_display}</div>
+            <div style="font-size: 11px; color: #5f6368; margin-top: 4px;">*Active GPs = registered GPs with ≥ 1 recording</div>
         </div>
     """
 

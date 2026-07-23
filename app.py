@@ -118,13 +118,42 @@ app_ui = ui.page_fluid(
 # Server
 # ---------------------------------------------------------------
 
+import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file if it exists
+load_dotenv()
+
+
 def server(input, output, session):
     # --- Reactive data (constant after load) ---
     data = reactive.value(dashboard_data)
+    is_authenticated = reactive.value(False)
+
+    @reactive.effect
+    @reactive.event(input.login_btn)
+    def handle_login():
+        env_password = os.environ.get("APP_PASSWORD")
+        if env_password and input.password_input() == env_password:
+            is_authenticated.set(True)
+        else:
+            ui.notification_show("Incorrect password", type="error")
 
     # --- Render dashboard ---
     @render.ui
     def dashboard_ui():
+        if not is_authenticated():
+            return ui.div(
+                ui.div(
+                    ui.h3("Landmark Tricorder Dashboard", class_="mb-3"),
+                    ui.p("Please enter the password to access the dashboard.", class_="text-muted"),
+                    ui.input_password("password_input", "", placeholder="Enter password..."),
+                    ui.input_action_button("login_btn", "Login", class_="btn-primary w-100 mt-2"),
+                    style="max-width: 400px; margin: 100px auto; padding: 40px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); background: white;"
+                ),
+                style="height: 100vh; background-color: #f8f9fa; padding-top: 10px;"
+            )
+
         # --- Main dashboard ---
         return ui.div(
             # Header
