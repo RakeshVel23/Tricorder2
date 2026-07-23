@@ -1,0 +1,8 @@
+# Archivos que no necesitan subirse a Connect Cloud
+.venv/
+__pycache__/
+scripts/
+context/
+scratch_inspect.py
+test_ui.html
+data/tricorder_enrollment_20260503 anonymised with identifier codes.xlsx

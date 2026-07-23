@@ -1,0 +1,42 @@
+# ---------------------------------------------------------------
+# Mapeo de columnas: nombre original en Excel → nombre interno
+# Permite absorber cambios de encabezado sin modificar código
+# ---------------------------------------------------------------
+
+site_level:
+  site_name: site_name
+  patient_count: patient_count
+  rec_count: rec_count
+  poor_pcg_count: poor_pcg_count
+  poor_ecg_count: poor_ecg_count
+  emas_rec_count: murmur_flag_count
+  eleft_rec_count: low_ef_flag_count
+  afib_rec_count: af_flag_count
+  assigned_rec_count: assigned_rec_count
+  assigned_poor_pcg_count: assigned_poor_pcg_count
+  assigned_poor_ecg_count: assigned_poor_ecg_count
+  assigned_emas_rec_count: assigned_murmur_flag_count
+  assigned_eleft_rec_count: assigned_low_ef_flag_count
+  assigned_afib_rec_count: assigned_af_flag_count
+
+user_level:
+  # Estas claves corresponden a la fila 0 del sheet (los nombres reales de variable)
+  Email address identifier: gp_id
+  site_name: site_name
+  patient_count: patient_count
+  rec_count: rec_count
+  poor_pcg_count: poor_pcg_count
+  poor_ecg_count: poor_ecg_count
+  emas_rec_count: murmur_flag_count
+  eleft_rec_count: low_ef_flag_count
+  afib_rec_count: af_flag_count
+  assigned_rec_count: assigned_rec_count
+  assigned_poor_pcg_count: assigned_poor_pcg_count
+  assigned_poor_ecg_count: assigned_poor_ecg_count
+  assigned_emas_rec_count: assigned_murmur_flag_count
+  assigned_eleft_rec_count: assigned_low_ef_flag_count
+  assigned_afib_rec_count: assigned_af_flag_count
+
+site_weekly:
+  site_name: site_name
+  # Las columnas de fecha se detectan automáticamente (datetime)

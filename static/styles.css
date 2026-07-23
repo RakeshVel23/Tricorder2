@@ -1,0 +1,302 @@
+/* ---------------------------------------------------------------
+   Landmark Tricorder Dashboard — Google Analytics 4 Styling
+   --------------------------------------------------------------- */
+
+:root {
+    /* GA4 Light Palette */
+    --color-bg-primary: #f8f9fa; /* Very light gray page background */
+    --color-bg-secondary: #ffffff; /* White cards */
+    --color-bg-card: #ffffff;
+    --color-bg-hover: #f1f3f4;
+    --color-border: #dadce0; /* Google Border Gray */
+
+    --color-text-primary: #202124; /* Google Dark Gray */
+    --color-text-secondary: #5f6368; /* Google Muted Gray */
+    --color-text-muted: #80868b;
+
+    --color-accent-primary: #1a73e8; /* Google Blue */
+    --color-accent-secondary: #34a853; /* Google Green */
+    --color-accent-warning: #fbbc04; /* Google Yellow */
+    --color-accent-danger: #ea4335; /* Google Red */
+    --color-accent-success: #34a853;
+
+    /* Dependencia de champion */
+    --color-dependency-low: #34a853;
+    --color-dependency-moderate: #fbbc04;
+    --color-dependency-high: #ea4335;
+
+    /* Tipografía */
+    --font-family: 'Roboto', 'Google Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --font-size-xs: 0.75rem; /* 12px */
+    --font-size-sm: 0.875rem; /* 14px */
+    --font-size-base: 1rem; /* 16px */
+    --font-size-lg: 1.125rem; /* 18px */
+    --font-size-xl: 1.375rem; /* 22px */
+    --font-size-2xl: 1.75rem; /* 28px */
+    --font-size-3xl: 2.25rem; /* 36px */
+
+    /* Espaciado */
+    --spacing-xs: 0.25rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2rem;
+    --spacing-2xl: 3rem;
+
+    /* Bordes */
+    --radius-sm: 4px;
+    --radius-md: 8px; /* GA4 standard border radius */
+    --radius-lg: 12px;
+
+    /* Sombras - GA4 is very flat, minimal shadow */
+    --shadow-sm: none;
+    --shadow-md: 0 1px 2px 0 rgba(60,64,67,0.3), 0 1px 3px 1px rgba(60,64,67,0.15); /* Material shadow level 1 */
+    --shadow-lg: 0 2px 6px 2px rgba(60,64,67,0.15), 0 1px 2px 0 rgba(60,64,67,0.3);
+}
+
+/* ---------------------------------------------------------------
+   Base — Force light mode over Bootstrap dark theme
+   --------------------------------------------------------------- */
+
+/* Override Bootstrap's dark mode variables at every specificity level */
+html,
+html[data-bs-theme="dark"],
+html[data-bs-theme="light"],
+[data-bs-theme="dark"] {
+    --bs-body-bg: #f8f9fa !important;
+    --bs-body-color: #202124 !important;
+    --bs-emphasis-color: #202124 !important;
+    --bs-secondary-bg: #ffffff !important;
+    --bs-tertiary-bg: #f8f9fa !important;
+    --bs-border-color: #dadce0 !important;
+    --bs-link-color: #1a73e8 !important;
+    --bs-link-hover-color: #1557b0 !important;
+    color-scheme: light !important;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: #f8f9fa !important;
+    color: #202124 !important;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Force all containers and cards to light backgrounds */
+.container-fluid,
+.container,
+.tab-content,
+.tab-pane,
+.nav-tabs,
+.card,
+.card-body {
+    background-color: #f8f9fa !important;
+    color: #202124 !important;
+}
+
+/* GA4 style nav tabs */
+.nav-tabs {
+    border-bottom: 1px solid #dadce0 !important;
+}
+
+.nav-tabs .nav-link {
+    color: #5f6368 !important;
+    border: none !important;
+    border-bottom: 3px solid transparent !important;
+    padding: 12px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    background: transparent !important;
+}
+
+.nav-tabs .nav-link:hover {
+    color: #1a73e8 !important;
+    border-bottom-color: #1a73e8 !important;
+    background-color: #f1f3f4 !important;
+}
+
+.nav-tabs .nav-link.active {
+    color: #1a73e8 !important;
+    border-bottom: 3px solid #1a73e8 !important;
+    background-color: transparent !important;
+}
+
+/* Force form controls to light theme */
+.form-control,
+.form-select,
+select,
+input[type="text"] {
+    background-color: #ffffff !important;
+    color: #202124 !important;
+    border-color: #dadce0 !important;
+}
+
+/* Force buttons to light theme */
+.btn-outline-secondary {
+    color: #5f6368 !important;
+    border-color: #dadce0 !important;
+    background-color: #ffffff !important;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #f1f3f4 !important;
+    color: #202124 !important;
+}
+
+/* ---------------------------------------------------------------
+   Header
+   --------------------------------------------------------------- */
+
+.dashboard-header {
+    background: var(--color-bg-secondary);
+    border-bottom: 1px solid var(--color-border);
+    padding: 12px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: var(--spacing-md);
+    margin-bottom: 24px;
+}
+
+.dashboard-header h2 {
+    font-size: var(--font-size-xl);
+    font-weight: 400; /* Google Sans uses lighter weights for headings */
+    margin: 0;
+    color: var(--color-text-primary);
+}
+
+.header-meta {
+    display: flex;
+    gap: var(--spacing-lg);
+    align-items: center;
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-sm);
+}
+
+
+/* ---------------------------------------------------------------
+   Panel / Section Cards
+   --------------------------------------------------------------- */
+
+.panel-card {
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    padding: 24px;
+    margin-bottom: 24px;
+    box-shadow: none; /* GA4 is completely flat */
+}
+
+.panel-card h3 {
+    font-size: var(--font-size-base);
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: var(--color-text-primary);
+    border-bottom: none; /* No underline in GA4 panels */
+    padding-bottom: 0;
+}
+
+/* ---------------------------------------------------------------
+   Dependency badges
+   --------------------------------------------------------------- */
+
+.badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: none;
+}
+
+.badge-low {
+    background: #e6f4ea;
+    color: #137333;
+}
+
+.badge-moderate {
+    background: #fef7e0;
+    color: #b06000;
+}
+
+.badge-high {
+    background: #fce8e6;
+    color: #c5221f;
+}
+
+/* ---------------------------------------------------------------
+   Tables - GA4 Style
+   --------------------------------------------------------------- */
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+}
+
+.data-table th {
+    background: var(--color-bg-card);
+    color: var(--color-text-secondary);
+    font-weight: 500;
+    font-size: 12px;
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.data-table td {
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--color-border);
+    color: var(--color-text-primary);
+}
+
+.data-table tr:hover {
+    background: var(--color-bg-hover);
+}
+
+/* ---------------------------------------------------------------
+   Warning banners
+   --------------------------------------------------------------- */
+
+.warning-banner {
+    background: #fef7e0;
+    border: 1px solid #fbbc04;
+    border-radius: var(--radius-md);
+    padding: 12px 16px;
+    color: #b06000;
+    font-size: 13px;
+    margin-bottom: 16px;
+}
+
+.info-banner {
+    background: #e8f0fe;
+    border: 1px solid #8ab4f8;
+    border-radius: var(--radius-md);
+    padding: 12px 16px;
+    color: #1967d2;
+    font-size: 13px;
+    margin-bottom: 16px;
+}
+
+/* ---------------------------------------------------------------
+   Plotly overrides
+   --------------------------------------------------------------- */
+
+.js-plotly-plot .plotly .modebar {
+    background: transparent !important;
+}
+
+/* ---------------------------------------------------------------
+   Responsive
+   --------------------------------------------------------------- */
+
+@media (max-width: 768px) {
+    .dashboard-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

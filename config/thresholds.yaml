@@ -1,0 +1,36 @@
+# ---------------------------------------------------------------
+# Umbrales configurables para segmentación y métricas
+# Modifica estos valores sin tocar el código de la aplicación
+# ---------------------------------------------------------------
+
+gp_utilisation_bands:
+  inactive: 0
+  very_low_min: 1
+  very_low_max: 9
+  low_min: 10
+  low_max: 49
+  moderate_min: 50
+  moderate_max: 199
+  high_min: 200
+
+champion_gp:
+  # Un GP debe cumplir AMBOS criterios para ser "Champion"
+  percentile: 90        # Percentil mínimo entre GPs activos
+  min_recordings: 200   # Grabaciones mínimas absolutas
+
+champion_dependency:
+  low_max: 40            # < 40% = baja dependencia
+  moderate_max: 70       # 40-70% = moderada, >= 70% = alta
+
+practice_segmentation:
+  low_adoption_max_recordings: 50
+  low_adoption_min_active_gp_rate: 10   # porcentaje
+  dormancy_weeks: 12
+  champion_min_active_gps: 2
+
+rolling_average_weeks: 4
+
+display:
+  min_denominator: 5           # Mínimo denominador para mostrar tasas
+  max_comparison_practices: 10 # Máximo de prácticas en comparación
+  low_volume_warning: 10       # Umbral de aviso por bajo volumen

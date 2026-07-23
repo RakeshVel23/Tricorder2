@@ -1,0 +1,1004 @@
+gp_id,gp_label,site_name,patient_count,rec_count,poor_pcg_count,poor_ecg_count,murmur_flag_count,low_ef_flag_count,af_flag_count,assigned_rec_count,assigned_poor_pcg_count,assigned_poor_ecg_count,assigned_murmur_flag_count,assigned_low_ef_flag_count,assigned_af_flag_count
+1,GP-001,Crosslands Surgery,6,14,0,1,1,3,2,6,0,0,1,1,1
+2,GP-002,Brook Green Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+3,GP-003,Allendale Road Surgery,2,2,0,0,0,0,0,2,0,0,0,0,0
+4,GP-004,St. George's Medical Center,2,5,0,0,0,0,0,2,0,0,0,0,0
+5,GP-005,Guru Nanak Medical Centre,0,1,0,0,0,0,0,0,0,0,0,0,0
+6,GP-006,Bush Doctors,0,0,0,0,0,0,0,0,0,0,0,0,0
+7,GP-007,Brampton Health Centre,1,67,1,3,3,10,0,1,0,0,0,0,0
+8,GP-008,Canberra Old Oak Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+9,GP-009,Woodfield Road Medical Centre,0,1,0,0,0,0,0,0,0,0,0,0,0
+10,GP-010,Willow Tree Family Doctors,2,3,0,0,0,0,0,2,0,0,0,0,0
+11,GP-011,Ellis Practice,3,7,0,1,1,1,0,3,0,0,0,1,0
+12,GP-012,Pinn Medical Centre,28,56,5,2,4,2,6,30,3,0,2,1,5
+13,GP-013,Civic Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+14,GP-014,The Willesden Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+15,GP-015,New Surgery,65,134,1,11,14,13,2,65,0,0,2,2,0
+16,GP-016,The Willesden Medical Centre,0,8,1,4,1,0,0,0,0,0,0,0,0
+17,GP-017,Guru Nanak Medical Centre,13,14,0,0,0,1,0,13,0,0,0,1,0
+18,GP-018,Foreland Medical Centre,4,7,0,1,0,0,0,6,0,0,0,0,0
+19,GP-019,Hillcrest Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+20,GP-020,Golborne Medical Centre E87742,3,34,6,11,5,5,3,3,0,0,2,1,1
+21,GP-021,Acrefield Surgery,0,1,0,0,0,0,0,0,0,0,0,0,0
+22,GP-022,Gladstone Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+23,GP-023,Willow Tree Family Doctors,525,764,29,137,37,57,24,525,3,3,29,43,18
+24,GP-024,Willow Tree Family Doctors,0,0,0,0,0,0,0,0,0,0,0,0,0
+25,GP-025,Crosslands Surgery,7,53,3,0,4,7,6,7,1,0,1,1,1
+26,GP-026,Fitzrovia Medical Centre,1,1,0,0,0,0,0,1,0,0,0,0,0
+27,GP-027,Holland Park Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+28,GP-028,Wembley Park Drive Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+29,GP-029,Gladstone Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+30,GP-030,Warren Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+31,GP-031,Church End Medical Centre,0,4,0,0,0,0,0,0,0,0,0,0,0
+32,GP-032,Stanley Corner Medical Centre,0,4,0,0,0,0,0,0,0,0,0,0,0
+33,GP-033,Church Lane Surgery,188,242,5,2,20,16,10,190,2,1,9,5,7
+34,GP-034,Willow Tree Family Doctors,1003,1867,153,93,182,438,94,1005,16,0,36,118,37
+35,GP-035,Townfield Doctors Surgery,4,4,1,0,0,0,0,4,1,0,0,0,0
+36,GP-036,Civic Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+37,GP-037,Kensington Park Medical Centre,38,106,2,18,15,15,8,38,0,0,6,7,6
+38,GP-038,Half Penny Steps Health Care,0,0,0,0,0,0,0,0,0,0,0,0,0
+39,GP-039,Willow Tree Family Doctors,0,0,0,0,0,0,0,0,0,0,0,0,0
+40,GP-040,Brampton Health Centre,1,1,0,0,0,0,0,1,0,0,0,0,0
+41,GP-041,Earls Court Surgery,4,13,6,1,0,2,0,4,3,0,0,1,0
+42,GP-042,New Surgery,2,11,0,0,0,3,1,2,0,0,0,0,1
+43,GP-043,The Lonsdale Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+44,GP-044,The Willesden Medical Centre,55,74,2,0,2,10,10,56,2,0,2,8,7
+45,GP-045,Ellis Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+46,GP-046,The Willesden Medical Centre,1,1,1,0,0,0,0,1,1,0,0,0,0
+47,GP-047,Belgravia Surgery,0,1,0,0,0,0,0,0,0,0,0,0,0
+48,GP-048,Half Penny Steps Health Care,0,0,0,0,0,0,0,0,0,0,0,0,0
+49,GP-049,Barlby Surgery,0,5,0,1,0,2,0,0,0,0,0,0,0
+50,GP-050,Holland Park Surgery,4,30,0,9,4,6,2,5,0,0,1,2,2
+51,GP-051,Bush Doctors,0,1,0,0,0,0,0,0,0,0,0,0,0
+52,GP-052,Oldfield Family Practice,0,25,1,4,0,2,2,0,0,0,0,0,0
+53,GP-053,Townfield Doctors Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+54,GP-054,Spring Grove Medical Practice,189,315,17,4,45,43,6,256,6,0,37,38,4
+55,GP-055,The Lonsdale Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+56,GP-056,Bush Doctors,0,0,0,0,0,0,0,0,0,0,0,0,0
+57,GP-057,Grove Park Terrace Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+58,GP-058,North Hyde Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+59,GP-059,The Chelsea Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+60,GP-060,Yiewsley Family Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+61,GP-061,Townfield Doctors Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+62,GP-062,Oxgate Gardens Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+63,GP-063,The Practice Feltham,0,7,0,2,2,0,0,0,0,0,0,0,0
+64,GP-064,Cuckoo Lane Practice,4,47,4,6,6,9,1,5,1,0,0,2,1
+65,GP-065,Marylebone Health Centre,1,1,0,0,0,0,0,1,0,0,0,0,0
+66,GP-066,Golborne Medical Centre E87742,2,28,1,2,0,5,0,2,0,0,0,0,0
+67,GP-067,Civic Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+68,GP-068,Hammersmith Surgery,5,51,0,6,2,3,1,5,0,1,1,1,1
+69,GP-069,Holland Park Surgery,0,10,0,3,2,2,2,0,0,0,0,0,0
+70,GP-070,Headstone Road Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+71,GP-071,Headstone Road Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+72,GP-072,Greenford Road Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+73,GP-073,Stanley Corner Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+74,GP-074,Pinn Medical Centre,2,22,0,4,0,4,3,2,0,0,0,1,1
+75,GP-075,Pinn Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+76,GP-076,Uxendon Crescent Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+77,GP-077,Belgravia Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+78,GP-078,The Lilyville Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+79,GP-079,Brook Green Medical Centre,0,1,0,0,0,0,0,0,0,0,0,0,0
+80,GP-080,Lancaster Gate Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+81,GP-081,Church Lane Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+82,GP-082,Warren Practice,0,2,1,2,0,0,0,0,0,0,0,0,0
+83,GP-083,Ellis Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+84,GP-084,Hammersmith Surgery,1,12,0,2,2,1,3,1,0,0,0,1,1
+85,GP-085,Hillcrest Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+86,GP-086,Foreland Medical Centre,9,66,3,8,7,10,3,9,0,0,1,3,0
+87,GP-087,Kings Road Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+88,GP-088,The Lilyville Surgery,4,9,2,1,2,0,1,4,1,0,1,0,0
+89,GP-089,The Willesden Medical Centre,1,160,10,49,10,15,14,1,1,0,0,0,0
+90,GP-090,Mapesbury Medical Group,0,1,0,0,0,0,0,0,0,0,0,0,0
+91,GP-091,Oxford Drive Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+92,GP-092,North End Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+93,GP-093,Willow Tree Family Doctors,60,65,0,4,4,9,0,60,0,0,4,8,0
+94,GP-094,Preston Road Surgery,4,15,0,7,1,1,1,4,0,0,0,0,0
+95,GP-095,Golborne Medical Centre E87742,0,2,0,0,0,0,0,0,0,0,0,0,0
+96,GP-096,Oxford Drive Medical Centre,18,31,2,3,3,2,1,18,0,1,1,1,1
+97,GP-097,Wembley Park Drive Medical Centre,1,1,0,0,0,0,0,1,0,0,0,0,0
+98,GP-098,Meadow View Surgery,4,86,0,6,5,17,2,5,0,0,0,2,0
+99,GP-099,Premier Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+100,GP-100,Oxford Drive Medical Centre,3,3,1,1,1,0,0,3,1,1,1,0,0
+101,GP-101,Stanley Corner Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+102,GP-102,Preston Medical Centre,1,1,0,0,0,0,0,1,0,0,0,0,0
+103,GP-103,Church End Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+104,GP-104,Hillcrest Surgery,0,1,0,0,0,0,0,0,0,0,0,0,0
+105,GP-105,Victoria Medical Centre,16,37,1,3,2,6,3,17,0,0,1,2,2
+106,GP-106,Oxford Drive Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+107,GP-107,Willow Tree Family Doctors,1584,2201,118,145,138,201,142,1592,15,10,46,112,55
+108,GP-108,Townfield Doctors Surgery,25,53,4,16,2,4,4,26,2,1,1,4,2
+109,GP-109,Golbourne Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+110,GP-110,Redwood Practice,75,109,4,5,9,5,2,75,1,0,5,3,2
+111,GP-111,Pinn Medical Centre,2,3,0,1,0,0,0,2,0,0,0,0,0
+112,GP-112,Bush Doctors,0,0,0,0,0,0,0,0,0,0,0,0,0
+113,GP-113,The Willesden Medical Centre,1,2,1,0,0,0,0,1,1,0,0,0,0
+114,GP-114,St. Peter's Medical Centre,0,2,0,0,0,0,0,0,0,0,0,0,0
+115,GP-115,Fitzrovia Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+116,GP-116,Ashchurch Medical Centre,12,28,11,2,5,1,0,12,6,0,2,0,0
+117,GP-117,The Practice Heart of Hounslow,0,0,0,0,0,0,0,0,0,0,0,0,0
+118,GP-118,Canberra Old Oak Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+119,GP-119,Holland Park Surgery,14,78,2,40,21,5,12,15,0,2,2,1,3
+120,GP-120,Belgravia Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+121,GP-121,Chiswick Family Practice E85130,0,3,0,0,0,1,0,0,0,0,0,0,0
+122,GP-122,Oldfield Family Practice,54,69,2,1,10,18,9,54,1,0,8,16,4
+123,GP-123,Bush Doctors,0,3,0,1,0,1,0,0,0,0,0,0,0
+124,GP-124,Victoria Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+125,GP-125,Kingfisher Practice,3,9,1,4,2,0,0,3,0,0,0,0,0
+126,GP-126,The Chelsea Practice,0,24,2,6,1,5,0,0,0,0,0,0,0
+127,GP-127,Brook Green Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+128,GP-128,Ellis Practice,1,3,0,0,0,1,0,1,0,0,0,0,0
+129,GP-129,Perivale Medical Clinic,0,25,0,1,4,8,1,0,0,0,0,0,0
+130,GP-130,Spring Grove Medical Practice,9,10,0,0,1,0,0,9,0,0,1,0,0
+131,GP-131,Premier Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+132,GP-132,North End Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+133,GP-133,Ellis Practice,3,6,0,0,1,0,0,3,0,0,0,0,0
+134,GP-134,St. Margarets Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+135,GP-135,Acorn Medical Centre,0,1,0,0,0,0,0,0,0,0,0,0,0
+136,GP-136,Crosslands Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+137,GP-137,Half Penny Steps Health Care,0,0,0,0,0,0,0,0,0,0,0,0,0
+138,GP-138,Chiswick Health Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+139,GP-139,Earls Court Surgery,23,234,7,36,23,15,15,23,0,0,5,2,2
+140,GP-140,Kensington Park Medical Centre,2,4,0,0,1,1,0,3,0,0,1,1,0
+141,GP-141,Allendale Road Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+142,GP-142,Allendale Road Surgery,6,16,0,8,0,0,1,6,0,3,0,0,0
+143,GP-143,Forty Willows Surgery,5,10,0,2,0,0,0,5,0,0,0,0,0
+144,GP-144,Oldfield Family Practice,34,40,0,4,4,5,4,35,0,2,2,5,4
+145,GP-145,Chiswick Health Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+146,GP-146,Ashchurch Medical Centre,25,34,3,0,5,5,1,28,0,0,4,5,1
+147,GP-147,Holland Park Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+148,GP-148,Acorn Medical Centre,0,1,0,0,0,0,0,0,0,0,0,0,0
+149,GP-149,Kingfisher Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+150,GP-150,Brook Green Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+151,GP-151,Chiswick Health Practice,5,84,3,14,4,7,6,5,1,0,0,1,1
+152,GP-152,Greenford Road Medical Centre,1,2,0,0,0,0,0,1,0,0,0,0,0
+153,GP-153,St. Peter's Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+154,GP-154,Hammersmith Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+155,GP-155,Willow Tree Family Doctors,1,5,0,2,0,2,0,1,0,0,0,1,0
+156,GP-156,Golborne Medical Centre E87742,0,0,0,0,0,0,0,0,0,0,0,0,0
+157,GP-157,Randolph Surgery,4,14,0,2,1,3,1,4,0,0,0,0,1
+158,GP-158,Bush Doctors,1,20,2,0,0,5,1,1,0,0,0,0,0
+159,GP-159,Otterfield Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+160,GP-160,Oxford Drive Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+161,GP-161,Park Medical Centre,0,3,0,2,0,1,0,0,0,0,0,0,0
+162,GP-162,Premier Medical Centre,5,5,0,0,1,2,1,5,0,0,1,2,1
+163,GP-163,Chiswick Health Practice,5,18,0,3,1,1,1,5,0,0,0,1,0
+164,GP-164,Kingfisher Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+165,GP-165,Crawford Street Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+166,GP-166,Wembley Park Drive Medical Centre,2,4,0,0,0,0,0,3,0,0,0,0,0
+167,GP-167,Great Chapel Street Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+168,GP-168,Hillcrest Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+169,GP-169,The Chelsea Practice,19,48,1,7,7,7,5,19,0,0,2,2,2
+170,GP-170,Fitzrovia Medical Centre,1,1,0,0,0,0,0,1,0,0,0,0,0
+171,GP-171,Willow Tree Family Doctors,0,0,0,0,0,0,0,0,0,0,0,0,0
+172,GP-172,Oxford Drive Medical Centre,2,3,0,0,0,0,0,2,0,0,0,0,0
+173,GP-173,Fitzrovia Medical Centre,12,25,1,5,2,3,1,12,1,0,1,3,1
+174,GP-174,Spring Grove Medical Practice,0,2,0,0,0,0,0,0,0,0,0,0,0
+175,GP-175,Victoria Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+176,GP-176,Honeypot Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+177,GP-177,The Willesden Medical Centre,0,1,0,0,0,0,0,0,0,0,0,0,0
+178,GP-178,Brook Green Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+179,GP-179,Pimlico Health at The Marven Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+180,GP-180,Premier Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+181,GP-181,North End Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+182,GP-182,Church End Medical Centre,0,1,0,0,0,0,0,0,0,0,0,0,0
+183,GP-183,Great Chapel Street Medical Centre,8,23,3,2,2,1,0,8,0,0,2,0,0
+184,GP-184,Yiewsley Family Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+185,GP-185,Crosslands Surgery,13,56,2,6,7,8,6,13,0,0,5,6,1
+186,GP-186,Kings Road Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+187,GP-187,Spring Grove Medical Practice,81,181,13,11,24,13,19,98,3,1,13,5,14
+188,GP-188,Redwood Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+189,GP-189,Acrefield Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+190,GP-190,Brook Green Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+191,GP-191,Cuckoo Lane Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+192,GP-192,Chestnut Practice,548,853,29,35,41,170,37,548,0,0,15,83,16
+193,GP-193,Hillcrest Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+194,GP-194,North End Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+195,GP-195,Uxendon Crescent Surgery,2,3,0,0,0,0,0,2,0,0,0,0,0
+196,GP-196,North End Medical Centre,23,24,0,2,2,3,4,23,0,2,2,3,4
+197,GP-197,Barlby Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+198,GP-198,Pimlico Health at The Marven Surgery,0,2,0,0,0,1,0,0,0,0,0,0,0
+199,GP-199,St. Peter's Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+200,GP-200,St. Margarets Practice,1,3,0,3,1,0,0,1,0,1,0,0,0
+201,GP-201,Crosslands Surgery,30,37,1,4,5,3,4,30,0,0,2,3,4
+202,GP-202,The Lonsdale Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+203,GP-203,Half Penny Steps Health Care,1,3,0,1,0,0,0,2,0,1,0,0,0
+204,GP-204,Bush Doctors,4,11,0,4,0,1,2,5,0,1,0,0,1
+205,GP-205,North End Medical Centre,0,1,0,0,0,0,0,0,0,0,0,0,0
+206,GP-206,Pinn Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+207,GP-207,Warren Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+208,GP-208,Civic Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+209,GP-209,Roundwood Park Medical Centre,1,2,0,0,0,0,0,1,0,0,0,0,0
+210,GP-210,Spring Grove Medical Practice,139,258,12,4,15,16,9,142,1,0,4,5,4
+211,GP-211,Holland Park Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+212,GP-212,Gladstone Medical Centre,8,68,5,10,7,18,6,8,0,0,1,3,0
+213,GP-213,Church Lane Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+214,GP-214,Civic Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+215,GP-215,Guru Nanak Medical Centre,0,1,0,0,0,0,0,0,0,0,0,0,0
+216,GP-216,Gladstone Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+217,GP-217,Roxbourne Medical Centre,0,4,0,2,0,0,0,0,0,0,0,0,0
+218,GP-218,Pinn Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+219,GP-219,Stanley Corner Medical Centre,0,1,0,0,0,0,0,0,0,0,0,0,0
+220,GP-220,Uxendon Crescent Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+221,GP-221,Church End Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+222,GP-222,High Street Surgery,0,1,0,0,0,0,0,0,0,0,0,0,0
+223,GP-223,Barlby Surgery,0,1,0,0,0,0,0,0,0,0,0,0,0
+224,GP-224,Meadow View Surgery,2,10,1,1,0,2,0,3,0,0,0,1,0
+225,GP-225,Oxgate Gardens Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+226,GP-226,Pimlico Health at The Marven Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+227,GP-227,Victoria Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+228,GP-228,Meadow View Surgery,6,10,0,4,0,0,0,6,0,3,0,0,0
+229,GP-229,Holland Park Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+230,GP-230,Oxgate Gardens Surgery,1,14,0,7,0,2,0,1,0,0,0,0,0
+231,GP-231,Half Penny Steps Health Care,0,0,0,0,0,0,0,0,0,0,0,0,0
+232,GP-232,Randolph Surgery,16,35,1,1,0,14,5,16,0,0,0,3,1
+233,GP-233,Fitzrovia Medical Centre,40,57,5,2,3,9,5,40,0,1,3,5,2
+234,GP-234,Crawford Street Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+235,GP-235,Roxbourne Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+236,GP-236,Mapesbury Medical Group,0,0,0,0,0,0,0,0,0,0,0,0,0
+237,GP-237,North End Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+238,GP-238,Holland Park Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+239,GP-239,St. Peter's Medical Centre,4,27,0,3,1,2,0,4,0,0,0,0,0
+240,GP-240,St. Andrews Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+241,GP-241,The Lilyville Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+242,GP-242,Crosslands Surgery,2,30,1,1,1,3,1,2,0,0,0,2,0
+243,GP-243,Cuckoo Lane Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+244,GP-244,The Chelsea Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+245,GP-245,The Chelsea Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+246,GP-246,The Willesden Medical Centre,2,23,4,8,3,3,0,2,1,0,0,0,0
+247,GP-247,North End Medical Centre,33,79,1,9,2,5,2,34,0,0,1,2,1
+248,GP-248,Victoria Medical Centre,0,112,3,5,9,12,8,0,0,0,0,0,0
+249,GP-249,Chiswick Family Practice E85130,43,52,0,0,2,3,5,50,0,0,1,3,4
+250,GP-250,New Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+251,GP-251,The Lilyville Surgery,0,2,0,0,0,1,0,0,0,0,0,0,0
+252,GP-252,Marylebone Health Centre,1,5,0,2,0,2,0,3,0,2,0,1,0
+253,GP-253,Mayfair Medical Centre,7,32,0,6,1,0,0,7,0,1,1,0,0
+254,GP-254,Mayfair Medical Centre,2,3,0,0,0,0,1,2,0,0,0,0,1
+255,GP-255,The Lilyville Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+256,GP-256,The Willesden Medical Centre,1,20,1,2,0,1,4,1,1,0,0,0,0
+257,GP-257,Willesden Green Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+258,GP-258,The Chelsea Practice,1,3,0,0,0,0,0,1,0,0,0,0,0
+259,GP-259,Half Penny Steps Health Care,0,0,0,0,0,0,0,0,0,0,0,0,0
+260,GP-260,Church End Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+261,GP-261,Great Chapel Street Medical Centre,0,10,0,0,0,2,0,0,0,0,0,0,0
+262,GP-262,Holland Park Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+263,GP-263,The Lonsdale Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+264,GP-264,Spring Grove Medical Practice,64,71,3,0,4,7,4,66,3,0,3,7,3
+265,GP-265,Honeypot Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+266,GP-266,Perivale Medical Clinic,7,42,9,11,1,4,1,7,0,0,0,0,0
+267,GP-267,Carlton Surgery,4,25,1,3,5,7,3,4,0,0,3,3,0
+268,GP-268,Otterfield Medical Centre,69,268,6,62,27,37,15,74,0,1,9,9,8
+269,GP-269,Church Lane Surgery,55,75,4,8,1,8,1,57,1,2,1,7,1
+270,GP-270,Half Penny Steps Health Care,0,0,0,0,0,0,0,0,0,0,0,0,0
+271,GP-271,Church End Medical Centre,2,8,0,2,1,2,0,3,0,0,1,1,0
+272,GP-272,The Willesden Medical Centre,1,1,0,0,0,0,0,1,0,0,0,0,0
+273,GP-273,Holland Park Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+274,GP-274,Park Medical Centre,2,4,0,0,0,1,2,2,0,0,0,1,2
+275,GP-275,Roxbourne Medical Centre,0,1,0,0,0,0,0,0,0,0,0,0,0
+276,GP-276,Victoria Medical Centre,0,2,0,0,0,0,0,0,0,0,0,0,0
+277,GP-277,Otterfield Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+278,GP-278,Marylebone Health Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+279,GP-279,Gladstone Medical Centre,16,33,1,4,2,7,2,16,1,0,1,5,2
+280,GP-280,Yiewsley Family Practice,0,5,0,1,0,0,0,0,0,0,0,0,0
+281,GP-281,Belgravia Surgery,2,4,0,0,1,0,1,2,0,0,1,0,1
+282,GP-282,Warren Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+283,GP-283,The Lonsdale Medical Centre,1,3,0,0,0,0,0,1,0,0,0,0,0
+284,GP-284,Holland Park Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+285,GP-285,Alperton Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+286,GP-286,St. Andrews Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+287,GP-287,Ashchurch Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+288,GP-288,Victoria Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+289,GP-289,Roxbourne Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+290,GP-290,Chiswick Health Practice,19,25,2,1,2,2,1,19,2,0,1,1,0
+291,GP-291,Foreland Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+292,GP-292,St. Peter's Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+293,GP-293,Grove Park Terrace Surgery,9,27,1,12,6,3,1,9,0,0,2,1,0
+294,GP-294,Woodfield Road Medical Centre,4,15,3,7,3,2,1,4,1,0,0,2,1
+295,GP-295,Bush Doctors,0,0,0,0,0,0,0,0,0,0,0,0,0
+296,GP-296,St. Margarets Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+297,GP-297,Honeypot Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+298,GP-298,Park Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+299,GP-299,Meadow View Surgery,34,55,3,12,11,8,4,35,2,4,4,3,2
+300,GP-300,Acorn Medical Centre,1,3,0,1,0,0,0,1,0,0,0,0,0
+301,GP-301,Chiswick Health Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+302,GP-302,St. Margarets Practice,3,3,0,0,0,1,0,3,0,0,0,1,0
+303,GP-303,Golborne Medical Centre E87742,0,8,0,2,1,0,0,0,0,0,0,0,0
+304,GP-304,Golbourne Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+305,GP-305,Holland Park Surgery,0,1,0,0,0,0,0,0,0,0,0,0,0
+306,GP-306,Perivale Medical Clinic,0,0,0,0,0,0,0,0,0,0,0,0,0
+307,GP-307,Wembley Park Drive Medical Centre,0,1,0,1,0,0,0,0,0,0,0,0,0
+308,GP-308,Chiswick Health Practice,1,1,0,0,0,0,0,1,0,0,0,0,0
+309,GP-309,Premier Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+310,GP-310,Church End Medical Centre,0,7,1,4,1,1,0,0,0,0,0,0,0
+311,GP-311,Half Penny Steps Health Care,0,0,0,0,0,0,0,0,0,0,0,0,0
+312,GP-312,North End Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+313,GP-313,Pinn Medical Centre,1,1,0,0,0,0,0,1,0,0,0,0,0
+314,GP-314,The Lilyville Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+315,GP-315,Brook Green Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+316,GP-316,Headstone Road Surgery,44,92,0,11,7,14,6,47,0,0,2,7,2
+317,GP-317,Oxford Drive Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+318,GP-318,Otterfield Medical Centre,0,2,0,1,0,0,0,0,0,0,0,0,0
+319,GP-319,Randolph Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+320,GP-320,Redwood Practice,73,84,0,0,1,4,4,76,0,0,1,4,4
+321,GP-321,The Chelsea Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+322,GP-322,Roundwood Park Medical Centre,0,3,0,1,0,0,0,0,0,0,0,0,0
+323,GP-323,Redwood Practice,107,298,5,4,12,13,9,114,1,1,4,4,4
+324,GP-324,Park Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+325,GP-325,Carlton Surgery,18,45,4,9,4,5,6,18,1,1,2,2,2
+326,GP-326,Hillcrest Surgery,0,105,1,2,9,6,3,0,0,0,0,0,0
+327,GP-327,Pinn Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+328,GP-328,Preston Hill Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+329,GP-329,Civic Medical Centre,2,5,0,1,0,0,0,2,0,0,0,0,0
+330,GP-330,Victoria Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+331,GP-331,Half Penny Steps Health Care,0,0,0,0,0,0,0,0,0,0,0,0,0
+332,GP-332,Headstone Road Surgery,1,2,0,0,0,0,0,1,0,0,0,0,0
+333,GP-333,Wembley Park Drive Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+334,GP-334,Hammersmith Surgery,12,25,3,3,1,4,2,13,0,0,1,3,2
+335,GP-335,Mayfair Medical Centre,179,359,26,21,48,43,11,192,12,2,23,15,4
+336,GP-336,Ellis Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+337,GP-337,Chestnut Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+338,GP-338,Kensington Park Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+339,GP-339,Warren Practice,4,14,0,1,2,3,2,4,0,0,0,2,0
+340,GP-340,St. Peter's Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+341,GP-341,St. Margarets Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+342,GP-342,Gladstone Medical Centre,7,26,4,17,4,1,0,7,0,1,0,1,0
+343,GP-343,The Lilyville Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+344,GP-344,St. Peter's Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+345,GP-345,Allendale Road Surgery,3,16,0,4,1,4,0,3,0,1,1,1,0
+346,GP-346,Kensington Park Medical Centre,27,55,3,11,2,9,2,27,1,1,1,6,2
+347,GP-347,Greenford Road Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+348,GP-348,The Practice Heart of Hounslow,6,24,0,3,2,4,0,7,0,0,1,2,0
+349,GP-349,Bush Doctors,0,0,0,0,0,0,0,0,0,0,0,0,0
+350,GP-350,Gladstone Medical Centre,23,35,0,8,2,1,2,23,0,3,2,1,2
+351,GP-351,Yiewsley Family Practice,4,17,1,1,1,2,1,4,1,0,0,1,1
+352,GP-352,Crawford Street Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+353,GP-353,Wembley Park Drive Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+354,GP-354,St. George's Medical Center,0,0,0,0,0,0,0,0,0,0,0,0,0
+355,GP-355,Acorn Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+356,GP-356,The Practice Feltham,1,6,0,1,0,0,0,1,0,0,0,0,0
+357,GP-357,Church Lane Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+358,GP-358,Grove Park Terrace Surgery,17,46,1,2,1,6,0,18,1,0,1,4,0
+359,GP-359,Lancaster Gate Medical Centre,14,62,8,23,10,13,2,14,0,0,3,5,0
+360,GP-360,Kings Road Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+361,GP-361,Acrefield Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+362,GP-362,New Surgery,0,2,1,1,0,0,0,0,0,0,0,0,0
+363,GP-363,Grove Park Terrace Surgery,17,17,0,0,1,0,0,17,0,0,1,0,0
+364,GP-364,West End Surgery,1,6,0,0,0,0,0,1,0,0,0,0,0
+365,GP-365,Church Lane Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+366,GP-366,Church End Medical Centre,2,5,0,1,0,0,0,2,0,0,0,0,0
+367,GP-367,Chiswick Health Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+368,GP-368,Otterfield Medical Centre,1,8,1,1,0,0,0,1,0,0,0,0,0
+369,GP-369,Hillcrest Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+370,GP-370,Roxbourne Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+371,GP-371,Brook Green Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+372,GP-372,Church End Medical Centre,0,1,0,0,0,0,0,0,0,0,0,0,0
+373,GP-373,Victoria Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+374,GP-374,St. Peter's Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+375,GP-375,Earls Court Surgery,1,1,0,0,0,0,0,1,0,0,0,0,0
+376,GP-376,Otterfield Medical Centre,0,1,0,0,0,0,0,0,0,0,0,0,0
+377,GP-377,Barlby Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+378,GP-378,Holland Park Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+379,GP-379,Kensington Park Medical Centre,1,1,0,0,0,0,0,1,0,0,0,0,0
+380,GP-380,The Southall Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+381,GP-381,Spring Grove Medical Practice,0,1,0,0,0,0,0,0,0,0,0,0,0
+382,GP-382,Barlby Surgery,1,2,0,0,1,0,0,1,0,0,1,0,0
+383,GP-383,Kingfisher Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+384,GP-384,Marylebone Health Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+385,GP-385,Bush Doctors,0,0,0,0,0,0,0,0,0,0,0,0,0
+386,GP-386,Oxford Drive Medical Centre,6,13,0,0,2,0,0,6,0,0,0,0,0
+387,GP-387,Pimlico Health at The Marven Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+388,GP-388,The Lilyville Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+389,GP-389,Hillcrest Surgery,0,3,0,0,0,0,0,0,0,0,0,0,0
+390,GP-390,Otterfield Medical Centre,1,4,0,0,0,0,0,1,0,0,0,0,0
+391,GP-391,Stanley Corner Medical Centre,0,1,0,0,0,0,0,0,0,0,0,0,0
+392,GP-392,Meadow View Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+393,GP-393,Mount Medical Centre,4,8,0,1,1,1,1,5,0,0,0,1,1
+394,GP-394,Preston Hill Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+395,GP-395,Bush Doctors,48,93,8,7,8,20,7,54,5,0,4,13,6
+396,GP-396,Cuckoo Lane Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+397,GP-397,The Lonsdale Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+398,GP-398,Park Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+399,GP-399,Sudbury Surgery,3,11,2,2,2,6,1,3,1,0,0,3,1
+400,GP-400,St. Peter's Medical Centre,1,3,0,0,0,0,1,1,0,0,0,0,1
+401,GP-401,Pinn Medical Centre,43,163,15,22,20,15,7,46,1,1,8,4,4
+402,GP-402,Crosslands Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+403,GP-403,Redwood Practice,1,1,0,0,1,0,0,1,0,0,1,0,0
+404,GP-404,The Willesden Medical Centre,0,1,0,0,0,0,0,0,0,0,0,0,0
+405,GP-405,Yiewsley Family Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+406,GP-406,Church End Medical Centre,0,8,0,1,2,0,0,0,0,0,0,0,0
+407,GP-407,Greenford Road Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+408,GP-408,Chiswick Family Practice E85130,96,131,3,8,11,8,8,101,1,0,7,7,6
+409,GP-409,Oxgate Gardens Surgery,1,1,0,0,0,0,0,1,0,0,0,0,0
+410,GP-410,Oxgate Gardens Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+411,GP-411,Cuckoo Lane Practice,0,4,0,0,0,2,0,0,0,0,0,0,0
+412,GP-412,The Willesden Medical Centre,24,153,3,17,13,15,11,25,1,0,3,2,2
+413,GP-413,Bush Doctors,25,52,7,15,1,7,2,25,2,4,1,5,2
+414,GP-414,Spring Grove Medical Practice,75,123,2,3,13,21,4,78,0,0,2,5,1
+415,GP-415,Perivale Medical Clinic,17,28,1,2,1,3,1,17,0,1,0,2,1
+416,GP-416,High Street Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+417,GP-417,The Willesden Medical Centre,0,2,1,1,0,0,0,0,0,0,0,0,0
+418,GP-418,Honeypot Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+419,GP-419,Headstone Road Surgery,9,35,0,6,6,0,0,9,0,1,3,0,0
+420,GP-420,The Chelsea Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+421,GP-421,Warren Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+422,GP-422,Ashchurch Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+423,GP-423,Yiewsley Family Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+424,GP-424,Freuchen Medical Centre,3,5,0,1,0,0,0,3,0,0,0,0,0
+425,GP-425,Randolph Surgery,0,61,1,2,3,3,0,0,0,0,0,0,0
+426,GP-426,Kings Road Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+427,GP-427,Premier Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+428,GP-428,Crawford Street Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+429,GP-429,Mayfair Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+430,GP-430,North End Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+431,GP-431,Church End Medical Centre,0,1,0,0,0,0,0,0,0,0,0,0,0
+432,GP-432,Brook Green Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+433,GP-433,Perivale Medical Clinic,0,28,2,5,0,1,2,0,0,0,0,0,0
+434,GP-434,Hillcrest Surgery,10,27,0,1,1,4,3,10,0,0,1,2,1
+435,GP-435,Crosslands Surgery,46,90,4,24,12,8,4,46,3,4,3,6,3
+436,GP-436,Lancaster Gate Medical Centre,0,6,0,0,0,0,0,0,0,0,0,0,0
+437,GP-437,Brook Green Medical Centre,9,44,0,4,1,1,3,9,0,0,0,1,1
+438,GP-438,Forty Willows Surgery,11,17,0,1,2,3,1,12,0,1,2,1,1
+439,GP-439,Great Chapel Street Medical Centre,7,9,0,0,0,0,0,7,0,0,0,0,0
+440,GP-440,Willow Tree Family Doctors,0,4,0,3,0,0,0,0,0,0,0,0,0
+441,GP-441,Park Medical Centre,5,12,1,0,0,1,1,6,0,0,0,1,1
+442,GP-442,Marylebone Health Centre,6,6,0,0,0,0,0,6,0,0,0,0,0
+443,GP-443,Church End Medical Centre,1,2,0,0,0,0,1,1,0,0,0,0,0
+444,GP-444,Church Lane Surgery,107,147,9,7,11,10,4,108,2,1,4,7,3
+445,GP-445,Barlby Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+446,GP-446,Oxford Drive Medical Centre,67,108,2,7,6,7,4,68,1,0,3,5,4
+447,GP-447,Kingfisher Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+448,GP-448,Victoria Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+449,GP-449,Ellis Practice,1,25,3,3,7,5,0,1,0,0,0,0,0
+450,GP-450,The Lilyville Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+451,GP-451,Church Lane Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+452,GP-452,Freuchen Medical Centre,0,4,2,0,1,0,0,0,0,0,0,0,0
+453,GP-453,Pinn Medical Centre,2,2,0,0,0,1,1,2,0,0,0,1,1
+454,GP-454,North End Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+455,GP-455,Church Lane Surgery,245,326,6,22,18,18,8,245,4,3,13,13,6
+456,GP-456,Marylebone Health Centre,7,9,2,1,0,3,0,8,2,1,0,3,0
+457,GP-457,Randolph Surgery,137,358,25,7,14,26,6,137,3,2,3,5,1
+458,GP-458,Preston Road Surgery,60,136,8,42,13,7,1,60,2,1,2,1,0
+459,GP-459,Honeypot Medical Centre,21,23,0,1,1,1,4,23,0,1,1,1,4
+460,GP-460,Brook Green Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+461,GP-461,Neasden Medical Centre,10,17,2,2,1,0,0,10,1,0,1,0,0
+462,GP-462,Grove Park Terrace Surgery,8,14,1,5,0,2,0,8,0,1,0,2,0
+463,GP-463,Park Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+464,GP-464,Meadow View Surgery,1,48,6,10,2,8,0,1,0,0,0,0,0
+465,GP-465,Holland Park Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+466,GP-466,St. George's Medical Center,282,333,2,8,16,25,3,299,1,2,14,21,2
+467,GP-467,High Street Surgery,3,4,0,3,0,0,0,4,0,3,0,0,0
+468,GP-468,The Chelsea Practice,0,3,0,0,0,0,0,0,0,0,0,0,0
+469,GP-469,Willow Tree Family Doctors,0,0,0,0,0,0,0,0,0,0,0,0,0
+470,GP-470,Church Lane Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+471,GP-471,The Lonsdale Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+472,GP-472,Pinn Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+473,GP-473,Woodfield Road Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+474,GP-474,Oxgate Gardens Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+475,GP-475,Hammersmith Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+476,GP-476,Willesden Green Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+477,GP-477,The Lilyville Surgery,0,2,0,0,0,0,0,0,0,0,0,0,0
+478,GP-478,North End Medical Centre,0,3,0,1,0,0,0,0,0,0,0,0,0
+479,GP-479,Bush Doctors,0,0,0,0,0,0,0,0,0,0,0,0,0
+480,GP-480,St. Margarets Practice,2,2,0,1,0,0,0,2,0,1,0,0,0
+481,GP-481,Chiswick Health Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+482,GP-482,Foreland Medical Centre,6,18,0,8,0,2,0,6,0,0,0,1,0
+483,GP-483,Marylebone Health Centre,0,1,1,1,0,0,0,0,0,0,0,0,0
+484,GP-484,Gladstone Medical Centre,61,316,6,35,15,54,23,61,3,3,0,12,7
+485,GP-485,Ellis Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+486,GP-486,Yiewsley Family Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+487,GP-487,Hillcrest Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+488,GP-488,Half Penny Steps Health Care,2,5,0,0,0,0,0,2,0,0,0,0,0
+489,GP-489,Great Chapel Street Medical Centre,6,33,2,1,3,5,1,6,1,0,1,2,0
+490,GP-490,Otterfield Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+491,GP-491,Park Medical Centre,1,25,0,7,3,3,0,1,0,0,0,0,0
+492,GP-492,St. Margarets Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+493,GP-493,Acorn Medical Centre,0,11,0,6,0,2,0,0,0,0,0,0,0
+494,GP-494,Great Chapel Street Medical Centre,18,21,2,1,0,6,3,18,1,1,0,5,2
+495,GP-495,Victoria Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+496,GP-496,The Westway Surgery,5,135,11,6,12,24,4,5,0,0,2,2,1
+497,GP-497,Golborne Medical Centre E87742,0,0,0,0,0,0,0,0,0,0,0,0,0
+498,GP-498,Canberra Old Oak Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+499,GP-499,Oxgate Gardens Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+500,GP-500,Stanley Corner Medical Centre,0,5,0,0,0,0,0,0,0,0,0,0,0
+501,GP-501,Park Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+502,GP-502,Half Penny Steps Health Care,0,0,0,0,0,0,0,0,0,0,0,0,0
+503,GP-503,Neasden Medical Centre,0,3,0,2,1,0,0,0,0,0,0,0,0
+504,GP-504,Headstone Road Surgery,9,14,0,1,1,2,1,9,0,0,0,1,1
+505,GP-505,North End Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+506,GP-506,The Practice Heart of Hounslow,0,2,0,0,0,0,0,0,0,0,0,0,0
+507,GP-507,Mapesbury Medical Group,0,0,0,0,0,0,0,0,0,0,0,0,0
+508,GP-508,Meadow View Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+509,GP-509,Willesden Green Surgery,2,3,0,0,0,0,0,2,0,0,0,0,0
+510,GP-510,St. George's Medical Center,64,94,2,9,4,9,0,68,1,3,3,7,0
+511,GP-511,Oldfield Family Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+512,GP-512,The Westway Surgery,0,123,13,12,5,12,12,0,0,0,0,0,0
+513,GP-513,Randolph Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+514,GP-514,Perivale Medical Clinic,1,59,1,10,4,4,4,1,0,0,0,0,0
+515,GP-515,Premier Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+516,GP-516,Half Penny Steps Health Care,0,0,0,0,0,0,0,0,0,0,0,0,0
+517,GP-517,Golbourne Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+518,GP-518,Randolph Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+519,GP-519,Great Chapel Street Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+520,GP-520,Willesden Green Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+521,GP-521,Spring Grove Medical Practice,0,8,0,3,0,0,0,0,0,0,0,0,0
+522,GP-522,Brook Green Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+523,GP-523,Meadow View Surgery,1,39,0,2,2,5,0,1,0,0,0,0,0
+524,GP-524,Roxbourne Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+525,GP-525,Kings Road Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+526,GP-526,Civic Medical Centre,3,3,0,0,0,0,0,3,0,0,0,0,0
+527,GP-527,Mapesbury Medical Group,0,282,9,37,99,99,47,0,0,0,0,0,0
+528,GP-528,High Street Surgery,19,31,1,4,2,6,0,20,0,0,1,2,0
+529,GP-529,Honeypot Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+530,GP-530,Randolph Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+531,GP-531,Roundwood Park Medical Centre,5,9,0,1,0,0,0,5,0,0,0,0,0
+532,GP-532,St. Peter's Medical Centre,1,2,0,1,0,0,0,1,0,1,0,0,0
+533,GP-533,Victoria Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+534,GP-534,Willesden Green Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+535,GP-535,Holland Park Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+536,GP-536,Foreland Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+537,GP-537,Barlby Surgery,1,9,0,1,0,0,0,1,0,0,0,0,0
+538,GP-538,Preston Road Surgery,21,25,0,4,4,4,1,22,0,2,3,3,1
+539,GP-539,Carlton Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+540,GP-540,Neasden Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+541,GP-541,Townfield Doctors Surgery,21,22,0,0,1,1,1,21,0,0,1,1,1
+542,GP-542,Roxbourne Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+543,GP-543,Chestnut Practice,0,1,0,0,0,0,0,0,0,0,0,0,0
+544,GP-544,Preston Road Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+545,GP-545,Victoria Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+546,GP-546,Pinn Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+547,GP-547,Ellis Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+548,GP-548,Crawford Street Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+549,GP-549,Church End Medical Centre,3,13,0,2,0,1,0,3,0,0,0,1,0
+550,GP-550,Honeypot Medical Centre,14,21,0,5,1,0,0,14,0,2,0,0,0
+551,GP-551,Golbourne Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+552,GP-552,Willow Tree Family Doctors,1,1,0,0,0,0,0,1,0,0,0,0,0
+553,GP-553,Uxendon Crescent Surgery,0,4,0,0,0,0,0,0,0,0,0,0,0
+554,GP-554,Uxendon Crescent Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+555,GP-555,Grove Park Terrace Surgery,15,53,3,12,5,5,2,15,0,0,3,3,0
+556,GP-556,Preston Road Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+557,GP-557,Stanley Corner Medical Centre,1,1,0,0,0,0,0,1,0,0,0,0,0
+558,GP-558,Kings Road Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+559,GP-559,Park Medical Centre,6,9,0,1,0,0,1,6,0,0,0,0,1
+560,GP-560,Mount Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+561,GP-561,The Lonsdale Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+562,GP-562,Victoria Medical Centre,0,3,0,0,0,0,0,0,0,0,0,0,0
+563,GP-563,Pinn Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+564,GP-564,Great Chapel Street Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+565,GP-565,Oxgate Gardens Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+566,GP-566,Barlby Surgery,45,53,0,6,3,3,3,45,0,1,2,3,2
+567,GP-567,Mapesbury Medical Group,0,0,0,0,0,0,0,0,0,0,0,0,0
+568,GP-568,Walnut Way Surgery,0,1,0,0,0,0,0,0,0,0,0,0,0
+569,GP-569,The Practice Heart of Hounslow,0,1,0,0,0,0,0,0,0,0,0,0,0
+570,GP-570,Brook Green Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+571,GP-571,Oldfield Family Practice,62,75,1,4,9,6,4,64,1,4,8,4,4
+572,GP-572,Ashchurch Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+573,GP-573,Church End Medical Centre,0,1,0,0,0,0,0,0,0,0,0,0,0
+574,GP-574,Uxendon Crescent Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+575,GP-575,Willesden Green Surgery,13,54,1,5,2,0,5,14,0,0,1,0,1
+576,GP-576,Willesden Green Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+577,GP-577,Warren Practice,0,23,0,0,1,0,2,0,0,0,0,0,0
+578,GP-578,St. Peter's Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+579,GP-579,Randolph Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+580,GP-580,Oxgate Gardens Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+581,GP-581,Roundwood Park Medical Centre,1,21,0,7,1,1,0,1,0,0,0,0,0
+582,GP-582,Half Penny Steps Health Care,0,0,0,0,0,0,0,0,0,0,0,0,0
+583,GP-583,Premier Medical Centre,3,12,0,6,4,1,0,3,0,0,1,0,0
+584,GP-584,Freuchen Medical Centre,1,7,0,2,0,1,1,1,0,1,0,0,0
+585,GP-585,Wembley Park Drive Medical Centre,6,6,0,0,0,4,0,6,0,0,0,4,0
+586,GP-586,Cuckoo Lane Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+587,GP-587,Townfield Doctors Surgery,17,24,0,3,1,2,0,17,0,1,1,2,0
+588,GP-588,Pinn Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+589,GP-589,Park Medical Centre,0,9,0,5,1,1,0,0,0,0,0,0,0
+590,GP-590,Allendale Road Surgery,1,2,0,0,0,0,0,1,0,0,0,0,0
+591,GP-591,West End Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+592,GP-592,Church End Medical Centre,1,27,0,3,4,0,0,1,0,0,0,0,0
+593,GP-593,Canberra Old Oak Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+594,GP-594,Roxbourne Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+595,GP-595,North End Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+596,GP-596,Randolph Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+597,GP-597,Crosslands Surgery,42,93,4,10,10,3,7,43,1,0,3,0,2
+598,GP-598,Pinn Medical Centre,1,8,0,1,0,1,0,1,0,0,0,0,0
+599,GP-599,Otterfield Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+600,GP-600,Victoria Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+601,GP-601,Kingfisher Practice,1,1,0,0,0,0,0,1,0,0,0,0,0
+602,GP-602,Otterfield Medical Centre,8,23,0,3,7,3,0,8,0,0,3,2,0
+603,GP-603,Victoria Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+604,GP-604,Meadow View Surgery,19,30,3,7,0,0,1,21,1,2,0,0,1
+605,GP-605,Golbourne Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+606,GP-606,North End Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+607,GP-607,Forty Willows Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+608,GP-608,Hillcrest Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+609,GP-609,Great Chapel Street Medical Centre,17,31,2,2,2,6,0,17,0,0,1,6,0
+610,GP-610,Park Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+611,GP-611,Honeypot Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+612,GP-612,Crosslands Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+613,GP-613,Allendale Road Surgery,1,2,0,0,0,1,0,1,0,0,0,0,0
+614,GP-614,Redwood Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+615,GP-615,Gladstone Medical Centre,1,1,0,0,0,0,0,1,0,0,0,0,0
+616,GP-616,Holland Park Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+617,GP-617,Foreland Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+618,GP-618,Premier Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+619,GP-619,Alperton Medical Centre,1,13,0,3,0,1,1,1,0,0,0,0,0
+620,GP-620,Freuchen Medical Centre,1,3,0,1,0,0,0,1,0,0,0,0,0
+621,GP-621,Chiswick Family Practice E85130,4,8,1,2,0,1,0,4,0,0,0,1,0
+622,GP-622,Barlby Surgery,7,8,0,0,1,1,0,7,0,0,1,1,0
+623,GP-623,Crosslands Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+624,GP-624,Holland Park Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+625,GP-625,Holland Park Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+626,GP-626,West End Surgery,0,5,0,0,0,0,0,0,0,0,0,0,0
+627,GP-627,The Practice Feltham,2,13,0,0,0,0,1,2,0,0,0,0,0
+628,GP-628,Honeypot Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+629,GP-629,Preston Road Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+630,GP-630,Brampton Health Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+631,GP-631,Premier Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+632,GP-632,Golbourne Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+633,GP-633,Pimlico Health at The Marven Surgery,0,1,0,0,0,0,0,0,0,0,0,0,0
+634,GP-634,Meadow View Surgery,59,63,0,5,5,6,1,60,0,2,4,6,1
+635,GP-635,Holland Park Surgery,1,30,0,5,2,3,2,1,0,0,0,0,0
+636,GP-636,Preston Medical Centre,27,39,2,5,5,5,3,28,2,1,4,3,2
+637,GP-637,The Practice Heart of Hounslow,0,0,0,0,0,0,0,0,0,0,0,0,0
+638,GP-638,Perivale Medical Clinic,0,1,0,1,0,0,0,0,0,0,0,0,0
+639,GP-639,Crosslands Surgery,0,5,0,1,0,2,0,0,0,0,0,0,0
+640,GP-640,Golborne Medical Centre E87742,16,48,2,10,1,3,7,16,0,0,0,1,2
+641,GP-641,Pimlico Health at The Marven Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+642,GP-642,Fitzrovia Medical Centre,2,24,4,2,0,5,0,2,0,0,0,0,0
+643,GP-643,Townfield Doctors Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+644,GP-644,Brook Green Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+645,GP-645,Roxbourne Medical Centre,3,25,3,4,0,2,0,3,0,0,0,1,0
+646,GP-646,The Practice Feltham,13,39,6,6,4,4,2,13,3,1,1,2,0
+647,GP-647,Kensington Park Medical Centre,10,20,0,8,1,3,0,11,0,1,1,2,0
+648,GP-648,Barlby Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+649,GP-649,Freuchen Medical Centre,1,5,2,2,0,0,1,1,1,0,0,0,0
+650,GP-650,Victoria Medical Centre,0,11,1,3,0,2,0,0,0,0,0,0,0
+651,GP-651,Earls Court Surgery,7,28,1,2,0,0,1,11,1,0,0,0,0
+652,GP-652,Walnut Way Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+653,GP-653,Victoria Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+654,GP-654,Headstone Road Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+655,GP-655,Chestnut Practice,1,6,1,1,0,0,0,1,0,0,0,0,0
+656,GP-656,Spring Grove Medical Practice,0,1,0,1,1,0,0,0,0,0,0,0,0
+657,GP-657,Kings Road Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+658,GP-658,Meadow View Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+659,GP-659,Kings Road Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+660,GP-660,The Lilyville Surgery,5,15,0,0,2,6,1,6,0,0,1,1,1
+661,GP-661,Spring Grove Medical Practice,32,82,4,10,6,22,8,33,2,0,4,5,2
+662,GP-662,Townfield Doctors Surgery,2,6,0,0,0,1,0,2,0,0,0,0,0
+663,GP-663,Brook Green Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+664,GP-664,Hammersmith Surgery,13,76,1,7,9,9,9,15,0,0,3,4,2
+665,GP-665,Acorn Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+666,GP-666,Redwood Practice,195,219,7,8,10,18,8,195,5,1,7,17,7
+667,GP-667,Hammersmith Surgery,1,128,3,24,25,26,9,1,0,0,0,0,0
+668,GP-668,Walnut Way Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+669,GP-669,High Street Surgery,0,10,0,0,0,0,1,0,0,0,0,0,0
+670,GP-670,Chestnut Practice,4,5,1,0,0,0,0,4,1,0,0,0,0
+671,GP-671,Church Lane Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+672,GP-672,Woodfield Road Medical Centre,1,3,0,1,0,0,0,1,0,0,0,0,0
+673,GP-673,Chiswick Family Practice E85130,2,2,1,0,0,0,0,2,1,0,0,0,0
+674,GP-674,Park Medical Centre,0,11,0,6,1,0,2,0,0,0,0,0,0
+675,GP-675,The Lonsdale Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+676,GP-676,Meadow View Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+677,GP-677,Church Lane Surgery,1,1,0,0,0,0,0,1,0,0,0,0,0
+678,GP-678,Civic Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+679,GP-679,Willow Tree Family Doctors,5,13,0,5,0,2,1,5,0,0,0,1,1
+680,GP-680,Spring Grove Medical Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+681,GP-681,Mapesbury Medical Group,1,31,2,9,2,4,2,1,0,0,0,1,1
+682,GP-682,Yiewsley Family Practice,1,2,0,0,0,0,0,1,0,0,0,0,0
+683,GP-683,Roxbourne Medical Centre,1,6,0,1,0,0,0,1,0,0,0,0,0
+684,GP-684,Hammersmith Surgery,3,27,0,4,2,2,2,3,0,0,0,0,1
+685,GP-685,Wembley Park Drive Medical Centre,5,11,0,1,0,0,1,5,0,1,0,0,1
+686,GP-686,Honeypot Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+687,GP-687,Roxbourne Medical Centre,163,310,0,39,20,21,5,163,0,1,4,4,2
+688,GP-688,Brook Green Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+689,GP-689,Oxgate Gardens Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+690,GP-690,Freuchen Medical Centre,1,1,0,0,0,0,0,1,0,0,0,0,0
+691,GP-691,Pimlico Health at The Marven Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+692,GP-692,Greenford Road Medical Centre,2,3,0,0,0,1,1,3,0,0,0,1,1
+693,GP-693,Premier Medical Centre,0,1,0,0,0,1,0,0,0,0,0,0,0
+694,GP-694,Crawford Street Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+695,GP-695,The Practice Feltham,5,19,0,2,2,1,2,5,0,0,1,0,1
+696,GP-696,Redwood Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+697,GP-697,Preston Hill Surgery,0,3,0,0,0,0,0,0,0,0,0,0,0
+698,GP-698,Pimlico Health at The Marven Surgery,0,6,0,3,0,0,0,0,0,0,0,0,0
+699,GP-699,Belgravia Surgery,8,13,0,1,0,0,1,8,0,0,0,0,1
+700,GP-700,North End Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+701,GP-701,Wembley Park Drive Medical Centre,4,9,1,2,2,1,1,4,0,0,2,1,1
+702,GP-702,Greenford Road Medical Centre,1,2,0,0,0,0,0,1,0,0,0,0,0
+703,GP-703,Premier Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+704,GP-704,Guru Nanak Medical Centre,0,2,0,0,0,0,0,0,0,0,0,0,0
+705,GP-705,Spring Grove Medical Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+706,GP-706,Preston Road Surgery,63,81,1,3,6,5,0,64,1,0,5,4,0
+707,GP-707,Willesden Green Surgery,0,5,0,2,1,0,0,0,0,0,0,0,0
+708,GP-708,Meadow View Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+709,GP-709,Neasden Medical Centre,0,2,0,2,0,0,0,0,0,0,0,0,0
+710,GP-710,High Street Surgery,13,21,0,4,3,3,0,13,0,1,1,1,0
+711,GP-711,Oxford Drive Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+712,GP-712,St. Margarets Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+713,GP-713,The Lonsdale Medical Centre,0,4,0,1,1,1,0,0,0,0,0,0,0
+714,GP-714,Perivale Medical Clinic,20,56,7,18,5,2,2,20,2,2,2,0,0
+715,GP-715,The Willesden Medical Centre,0,2,0,0,0,0,0,0,0,0,0,0,0
+716,GP-716,Grove Park Terrace Surgery,6,35,0,1,1,0,2,6,0,0,1,0,0
+717,GP-717,Ellis Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+718,GP-718,Holland Park Surgery,0,1,0,0,0,0,0,0,0,0,0,0,0
+719,GP-719,Grove Park Terrace Surgery,2,9,1,4,0,0,0,2,0,0,0,0,0
+720,GP-720,Fitzrovia Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+721,GP-721,Willesden Green Surgery,3,6,0,0,0,0,1,3,0,0,0,0,0
+722,GP-722,Oxgate Gardens Surgery,0,2,0,0,1,1,0,0,0,0,0,0,0
+723,GP-723,Roxbourne Medical Centre,40,48,0,1,5,3,3,41,0,0,3,3,3
+724,GP-724,Premier Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+725,GP-725,Spring Grove Medical Practice,1,5,0,1,0,0,2,1,0,0,0,0,1
+726,GP-726,Park Medical Centre,2,93,0,11,7,16,12,2,0,0,1,1,1
+727,GP-727,Victoria Medical Centre,2,13,0,1,2,2,1,2,0,0,0,0,0
+728,GP-728,Holland Park Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+729,GP-729,Park Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+730,GP-730,West End Surgery,0,1,0,0,0,0,0,0,0,0,0,0,0
+731,GP-731,Half Penny Steps Health Care,0,0,0,0,0,0,0,0,0,0,0,0,0
+732,GP-732,Oldfield Family Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+733,GP-733,Greenford Road Medical Centre,28,82,1,13,9,9,2,28,0,0,6,7,1
+734,GP-734,Mount Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+735,GP-735,Perivale Medical Clinic,0,0,0,0,0,0,0,0,0,0,0,0,0
+736,GP-736,Cuckoo Lane Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+737,GP-737,Chestnut Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+738,GP-738,Victoria Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+739,GP-739,Greenford Road Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+740,GP-740,Crosslands Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+741,GP-741,Park Medical Centre,19,47,6,1,2,8,5,19,2,0,2,3,1
+742,GP-742,Great Chapel Street Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+743,GP-743,Guru Nanak Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+744,GP-744,Stanley Corner Medical Centre,1,2,0,0,0,0,0,1,0,0,0,0,0
+745,GP-745,Bush Doctors,0,0,0,0,0,0,0,0,0,0,0,0,0
+746,GP-746,Spring Grove Medical Practice,7,12,0,0,1,0,0,7,0,0,1,0,0
+747,GP-747,Oxgate Gardens Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+748,GP-748,Preston Road Surgery,65,104,10,8,3,12,4,67,5,1,3,10,3
+749,GP-749,Greenford Road Medical Centre,173,329,1,48,21,16,12,192,1,2,9,8,6
+750,GP-750,Oxgate Gardens Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+751,GP-751,Pimlico Health at The Marven Surgery,0,2,0,0,0,0,0,0,0,0,0,0,0
+752,GP-752,North End Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+753,GP-753,Oxford Drive Medical Centre,1,3,0,1,0,1,0,1,0,0,0,1,0
+754,GP-754,West End Surgery,8,146,15,16,22,22,5,8,2,0,3,5,1
+755,GP-755,The Willesden Medical Centre,2,7,0,0,2,0,0,2,0,0,1,0,0
+756,GP-756,Great Chapel Street Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+757,GP-757,Pinn Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+758,GP-758,West End Surgery,0,83,2,19,8,5,2,0,0,0,0,0,0
+759,GP-759,Bush Doctors,0,0,0,0,0,0,0,0,0,0,0,0,0
+760,GP-760,Acrefield Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+761,GP-761,Otterfield Medical Centre,2,6,0,4,0,0,0,2,0,1,0,0,0
+762,GP-762,Golbourne Medical Centre,0,1,0,0,0,0,0,0,0,0,0,0,0
+763,GP-763,Church Lane Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+764,GP-764,St. Peter's Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+765,GP-765,The Willesden Medical Centre,8,63,0,1,4,13,0,8,0,0,0,0,0
+766,GP-766,Pinn Medical Centre,10,19,1,1,1,3,2,10,0,0,1,2,1
+767,GP-767,Premier Medical Centre,3,10,0,3,0,0,0,3,0,0,0,0,0
+768,GP-768,Fitzrovia Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+769,GP-769,Fitzrovia Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+770,GP-770,Wembley Park Drive Medical Centre,0,29,0,8,3,1,1,0,0,0,0,0,0
+771,GP-771,Brampton Health Centre,1,26,1,4,3,5,3,1,0,0,0,0,0
+772,GP-772,North Hyde Practice,5,12,0,0,1,0,0,5,0,0,0,0,0
+773,GP-773,Lancaster Gate Medical Centre,0,1,0,0,0,0,0,0,0,0,0,0,0
+774,GP-774,Holland Park Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+775,GP-775,High Street Surgery,17,47,2,5,3,5,1,17,1,0,1,2,0
+776,GP-776,The Practice Heart of Hounslow,0,0,0,0,0,0,0,0,0,0,0,0,0
+777,GP-777,Canberra Old Oak Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+778,GP-778,Half Penny Steps Health Care,0,0,0,0,0,0,0,0,0,0,0,0,0
+779,GP-779,The Willesden Medical Centre,2,6,2,2,0,0,0,2,1,0,0,0,0
+780,GP-780,The Westway Surgery,11,124,3,19,11,17,11,11,1,0,2,8,4
+781,GP-781,St. Margarets Practice,2,5,2,1,0,0,1,2,0,0,0,0,1
+782,GP-782,Marylebone Health Centre,21,51,3,10,3,3,2,24,2,3,2,2,2
+783,GP-783,Marylebone Health Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+784,GP-784,Brook Green Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+785,GP-785,The Practice Heart of Hounslow,0,7,0,4,0,0,0,0,0,0,0,0,0
+786,GP-786,Oldfield Family Practice,12,16,0,1,2,1,0,12,0,0,2,1,0
+787,GP-787,Church End Medical Centre,0,42,0,14,3,3,2,0,0,0,0,0,0
+788,GP-788,Cuckoo Lane Practice,3,15,0,0,0,2,0,3,0,0,0,1,0
+789,GP-789,Kings Road Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+790,GP-790,Acorn Medical Centre,1,2,0,0,0,1,0,1,0,0,0,1,0
+791,GP-791,The Westway Surgery,14,30,0,1,4,5,0,14,0,0,2,1,0
+792,GP-792,North Hyde Practice,12,20,0,3,1,1,1,12,0,2,1,1,1
+793,GP-793,Willesden Green Surgery,1,10,0,4,0,0,1,1,0,0,0,0,0
+794,GP-794,Gladstone Medical Centre,10,18,0,0,1,1,0,10,0,0,1,0,0
+795,GP-795,Preston Road Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+796,GP-796,Foreland Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+797,GP-797,Allendale Road Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+798,GP-798,Acrefield Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+799,GP-799,Park Medical Centre,6,19,0,1,2,2,0,6,0,0,1,0,0
+800,GP-800,Kings Road Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+801,GP-801,Bush Doctors,1,3,0,0,0,0,0,1,0,0,0,0,0
+802,GP-802,Stanley Corner Medical Centre,2,3,0,0,0,0,0,2,0,0,0,0,0
+803,GP-803,Golborne Medical Centre E87742,0,0,0,0,0,0,0,0,0,0,0,0,0
+804,GP-804,Freuchen Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+805,GP-805,The Lilyville Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+806,GP-806,Brampton Health Centre,0,1,0,0,0,0,0,0,0,0,0,0,0
+807,GP-807,St. Andrews Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+808,GP-808,Kensington Park Medical Centre,5,44,4,5,4,8,2,5,0,0,2,2,0
+809,GP-809,West End Surgery,1,24,0,3,2,1,2,1,0,0,0,1,1
+810,GP-810,Spring Grove Medical Practice,0,7,0,1,0,1,1,0,0,0,0,0,0
+811,GP-811,Oldfield Family Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+812,GP-812,Great Chapel Street Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+813,GP-813,Golbourne Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+814,GP-814,Chiswick Health Practice,5,7,1,3,0,0,0,5,1,1,0,0,0
+815,GP-815,Redwood Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+816,GP-816,Neasden Medical Centre,3,10,0,4,0,2,0,3,0,1,0,1,0
+817,GP-817,Fitzrovia Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+818,GP-818,Bush Doctors,0,28,0,2,3,5,0,0,0,0,0,0,0
+819,GP-819,Oxford Drive Medical Centre,2,6,0,0,0,3,0,2,0,0,0,1,0
+820,GP-820,Carlton Surgery,55,94,1,3,6,10,10,67,1,0,3,9,7
+821,GP-821,North End Medical Centre,2,3,0,1,1,1,0,2,0,0,0,1,0
+822,GP-822,Carlton Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+823,GP-823,Canberra Old Oak Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+824,GP-824,Park Medical Centre,0,2,0,0,0,0,0,0,0,0,0,0,0
+825,GP-825,High Street Surgery,8,19,3,5,1,0,0,8,0,1,1,0,0
+826,GP-826,Roxbourne Medical Centre,1,6,0,0,1,0,0,1,0,0,0,0,0
+827,GP-827,Guru Nanak Medical Centre,0,27,0,4,1,4,0,0,0,0,0,0,0
+828,GP-828,Ashchurch Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+829,GP-829,Yiewsley Family Practice,0,1,0,0,0,0,0,0,0,0,0,0,0
+830,GP-830,Brampton Health Centre,0,1,0,0,0,0,0,0,0,0,0,0,0
+831,GP-831,Roxbourne Medical Centre,0,4,1,1,0,0,0,0,0,0,0,0,0
+832,GP-832,Townfield Doctors Surgery,104,159,8,32,17,17,10,104,6,2,14,16,10
+833,GP-833,Oxgate Gardens Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+834,GP-834,Premier Medical Centre,2,3,0,0,0,1,0,2,0,0,0,0,0
+835,GP-835,Gladstone Medical Centre,0,2,0,0,0,1,0,0,0,0,0,0,0
+836,GP-836,Willesden Green Surgery,0,25,0,0,0,0,0,0,0,0,0,0,0
+837,GP-837,Church End Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+838,GP-838,The Lonsdale Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+839,GP-839,Allendale Road Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+840,GP-840,New Surgery,71,166,5,11,19,22,24,78,0,2,4,8,6
+841,GP-841,Willow Tree Family Doctors,0,0,0,0,0,0,0,0,0,0,0,0,0
+842,GP-842,Roxbourne Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+843,GP-843,Acrefield Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+844,GP-844,Golborne Medical Centre E87742,0,2,0,1,0,0,0,0,0,0,0,0,0
+845,GP-845,The Practice Feltham,0,13,1,4,1,1,0,0,0,0,0,0,0
+846,GP-846,Otterfield Medical Centre,12,27,0,2,3,7,1,16,0,0,2,6,1
+847,GP-847,New Surgery,16,37,2,10,4,5,2,16,0,0,1,1,0
+848,GP-848,Randolph Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+849,GP-849,Preston Road Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+850,GP-850,St. Peter's Medical Centre,0,20,2,9,5,6,0,0,0,0,0,0,0
+851,GP-851,Brook Green Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+852,GP-852,Mayfair Medical Centre,0,3,1,1,0,0,0,0,0,0,0,0,0
+853,GP-853,Uxendon Crescent Surgery,4,17,0,3,0,2,0,4,0,0,0,0,0
+854,GP-854,The Practice Heart of Hounslow,0,0,0,0,0,0,0,0,0,0,0,0,0
+855,GP-855,Uxendon Crescent Surgery,4,6,0,0,0,1,0,4,0,0,0,1,0
+856,GP-856,Acrefield Surgery,0,1,0,0,0,0,0,0,0,0,0,0,0
+857,GP-857,Willow Tree Family Doctors,868,870,3,1,36,78,36,870,3,1,36,78,36
+858,GP-858,Bush Doctors,0,0,0,0,0,0,0,0,0,0,0,0,0
+859,GP-859,Acrefield Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+860,GP-860,Honeypot Medical Centre,1,1,0,0,0,0,0,1,0,0,0,0,0
+861,GP-861,Brook Green Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+862,GP-862,Kings Road Surgery,2,2,0,1,0,0,0,2,0,1,0,0,0
+863,GP-863,Forty Willows Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+864,GP-864,Brook Green Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+865,GP-865,Kensington Park Medical Centre,3,71,15,12,4,8,1,3,0,0,1,1,0
+866,GP-866,Holland Park Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+867,GP-867,Holland Park Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+868,GP-868,Barlby Surgery,0,11,1,9,1,0,0,0,0,0,0,0,0
+869,GP-869,Alperton Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+870,GP-870,Park Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+871,GP-871,Willow Tree Family Doctors,0,0,0,0,0,0,0,0,0,0,0,0,0
+872,GP-872,New Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+873,GP-873,West End Surgery,11,22,3,1,1,5,3,11,2,0,0,3,3
+874,GP-874,Spring Grove Medical Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+875,GP-875,Oldfield Family Practice,3,51,2,6,3,5,2,3,0,0,0,2,1
+876,GP-876,The Lonsdale Medical Centre,6,18,1,4,0,1,1,6,0,1,0,0,0
+877,GP-877,Kingfisher Practice,2,3,1,0,0,0,0,2,0,0,0,0,0
+878,GP-878,Park Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+879,GP-879,Wembley Park Drive Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+880,GP-880,Chestnut Practice,8,8,1,0,0,0,0,8,1,0,0,0,0
+881,GP-881,Chiswick Health Practice,2,16,1,0,1,1,1,2,1,0,1,0,0
+882,GP-882,St. Margarets Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+883,GP-883,Brook Green Medical Centre,3,14,1,2,1,0,0,3,0,0,1,0,0
+884,GP-884,Kings Road Surgery,0,1,0,1,0,0,0,0,0,0,0,0,0
+885,GP-885,Honeypot Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+886,GP-886,Roxbourne Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+887,GP-887,Hillcrest Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+888,GP-888,The Chelsea Practice,6,8,0,0,2,0,0,6,0,0,2,0,0
+889,GP-889,Park Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+890,GP-890,Lancaster Gate Medical Centre,17,51,4,17,7,3,1,17,2,0,1,1,1
+891,GP-891,Roundwood Park Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+892,GP-892,Golbourne Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+893,GP-893,Victoria Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+894,GP-894,Kingfisher Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+895,GP-895,Allendale Road Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+896,GP-896,Headstone Road Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+897,GP-897,Holland Park Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+898,GP-898,Mayfair Medical Centre,0,56,1,13,3,4,3,0,0,0,0,0,0
+899,GP-899,Neasden Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+900,GP-900,Lancaster Gate Medical Centre,1,2,0,0,0,0,0,1,0,0,0,0,0
+901,GP-901,Meadow View Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+902,GP-902,Victoria Medical Centre,0,1,0,1,0,0,0,0,0,0,0,0,0
+903,GP-903,The Lonsdale Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+904,GP-904,Stanley Corner Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+905,GP-905,Crosslands Surgery,2,230,11,38,37,35,2,2,0,0,0,0,1
+906,GP-906,Oldfield Family Practice,2,32,2,11,4,7,6,2,0,0,0,2,0
+907,GP-907,Townfield Doctors Surgery,0,9,1,1,0,0,0,0,0,0,0,0,0
+908,GP-908,Mount Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+909,GP-909,Sudbury Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+910,GP-910,Victoria Medical Centre,1,4,0,0,0,1,0,1,0,0,0,0,0
+911,GP-911,Oldfield Family Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+912,GP-912,Golbourne Medical Centre,0,7,0,1,0,0,0,0,0,0,0,0,0
+913,GP-913,Grove Park Terrace Surgery,2,7,1,0,0,1,2,3,1,0,0,1,1
+914,GP-914,Holland Park Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+915,GP-915,Roxbourne Medical Centre,4,11,0,2,0,2,0,4,0,1,0,0,0
+916,GP-916,Meadow View Surgery,710,1411,110,156,179,106,34,712,8,0,44,34,10
+917,GP-917,Church End Medical Centre,0,8,0,1,0,0,0,0,0,0,0,0,0
+918,GP-918,West End Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+919,GP-919,Brampton Health Centre,1,1,0,0,0,0,0,1,0,0,0,0,0
+920,GP-920,Church End Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+921,GP-921,Greenford Road Medical Centre,2,11,1,1,0,1,1,2,1,0,0,0,1
+922,GP-922,Willow Tree Family Doctors,1590,2562,106,95,240,396,176,1612,10,4,42,92,57
+923,GP-923,Ashchurch Medical Centre,90,164,48,61,28,7,3,93,40,1,3,3,3
+924,GP-924,Gladstone Medical Centre,177,338,14,5,19,59,28,191,3,0,5,28,13
+925,GP-925,Hillcrest Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+926,GP-926,The Lilyville Surgery,1,1,0,0,0,0,0,1,0,0,0,0,0
+927,GP-927,Victoria Medical Centre,0,1,0,1,0,0,0,0,0,0,0,0,0
+928,GP-928,Golbourne Medical Centre,6,19,1,2,1,2,1,6,1,2,0,0,0
+929,GP-929,Warren Practice,1,1,0,0,0,0,0,1,0,0,0,0,0
+930,GP-930,Fitzrovia Medical Centre,12,14,1,0,1,3,1,12,1,0,1,2,1
+931,GP-931,Meadow View Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+932,GP-932,Carlton Surgery,0,31,0,3,1,2,7,0,0,0,0,0,0
+933,GP-933,Carlton Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+934,GP-934,Oxford Drive Medical Centre,1,2,0,1,0,0,0,1,0,0,0,0,0
+935,GP-935,Forty Willows Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+936,GP-936,Kingfisher Practice,11,21,1,2,0,2,0,11,0,0,0,1,0
+937,GP-937,Otterfield Medical Centre,0,1,0,0,0,0,0,0,0,0,0,0,0
+938,GP-938,Brook Green Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+939,GP-939,New Surgery,0,1,0,0,0,0,0,0,0,0,0,0,0
+940,GP-940,Perivale Medical Clinic,1,1,0,0,0,1,0,1,0,0,0,1,0
+941,GP-941,Sudbury Surgery,34,48,3,15,2,10,4,34,1,6,2,7,3
+942,GP-942,Sudbury Surgery,0,1,0,0,0,0,0,0,0,0,0,0,0
+943,GP-943,Sudbury Surgery,1,1,0,0,0,0,0,1,0,0,0,0,0
+944,GP-944,St. Andrews Medical Centre,0,1,0,0,0,0,0,0,0,0,0,0,0
+945,GP-945,Otterfield Medical Centre,0,1,0,0,0,0,0,0,0,0,0,0,0
+946,GP-946,The Lilyville Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+947,GP-947,Honeypot Medical Centre,1,2,0,0,0,0,2,1,0,0,0,0,1
+948,GP-948,Meadow View Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+949,GP-949,Willow Tree Family Doctors,0,0,0,0,0,0,0,0,0,0,0,0,0
+950,GP-950,Stanley Corner Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+951,GP-951,Holland Park Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+952,GP-952,Bush Doctors,140,250,2,7,32,33,27,152,1,0,16,19,19
+953,GP-953,Pinn Medical Centre,0,9,0,3,1,1,1,0,0,0,0,0,0
+954,GP-954,The Southall Medical Centre,1,1,0,0,0,0,0,1,0,0,0,0,0
+955,GP-955,Hillcrest Surgery,2,5,0,0,0,0,0,2,0,0,0,0,0
+956,GP-956,Meadow View Surgery,5,7,0,0,0,1,0,7,0,0,0,1,0
+957,GP-957,Hillcrest Surgery,1,6,0,0,0,0,0,2,0,0,0,0,0
+958,GP-958,Alperton Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+959,GP-959,Chestnut Practice,4,8,0,1,0,1,0,4,0,0,0,0,0
+960,GP-960,Wembley Park Drive Medical Centre,5,65,0,13,1,2,2,5,0,0,0,0,1
+961,GP-961,Otterfield Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+962,GP-962,Preston Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+963,GP-963,Sudbury Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+964,GP-964,The Willesden Medical Centre,1,4,0,0,0,0,1,1,0,0,0,0,0
+965,GP-965,St. Margarets Practice,0,2,0,2,0,0,0,0,0,0,0,0,0
+966,GP-966,Brampton Health Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+967,GP-967,North End Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+968,GP-968,Alperton Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+969,GP-969,Freuchen Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+970,GP-970,Ellis Practice,0,1,0,0,0,0,0,0,0,0,0,0,0
+971,GP-971,Brook Green Medical Centre,0,1,0,0,0,0,0,0,0,0,0,0,0
+972,GP-972,Golborne Medical Centre E87742,26,164,9,27,18,15,7,28,1,2,4,1,0
+973,GP-973,Townfield Doctors Surgery,1,5,0,2,0,0,0,1,0,0,0,0,0
+974,GP-974,Gladstone Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+975,GP-975,High Street Surgery,65,138,9,50,16,9,2,65,0,0,8,8,2
+976,GP-976,Victoria Medical Centre,25,42,1,6,2,5,1,25,0,3,1,3,1
+977,GP-977,Wembley Park Drive Medical Centre,39,154,8,10,17,5,4,41,0,1,4,2,2
+978,GP-978,Grove Park Terrace Surgery,31,48,2,2,7,12,3,31,1,1,5,9,2
+979,GP-979,Carlton Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+980,GP-980,Brook Green Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+981,GP-981,Greenford Road Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+982,GP-982,Oxford Drive Medical Centre,0,2,0,0,0,0,0,0,0,0,0,0,0
+983,GP-983,Greenford Road Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+984,GP-984,Church Lane Surgery,63,102,1,8,5,10,5,63,0,1,3,3,4
+985,GP-985,Belgravia Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+986,GP-986,St. Peter's Medical Centre,26,582,15,64,15,129,26,26,0,0,1,4,1
+987,GP-987,St. Andrews Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+988,GP-988,Holland Park Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+989,GP-989,Stanley Corner Medical Centre,0,1,0,0,0,0,0,0,0,0,0,0,0
+990,GP-990,The Westway Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+991,GP-991,Honeypot Medical Centre,18,30,0,5,1,1,1,18,0,0,1,1,1
+992,GP-992,Honeypot Medical Centre,0,2,0,1,0,0,0,0,0,0,0,0,0
+993,GP-993,Walnut Way Surgery,23,43,1,2,2,14,0,23,0,0,0,2,0
+994,GP-994,New Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+995,GP-995,Church End Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+996,GP-996,North Hyde Practice,1,2,0,1,0,0,0,1,0,1,0,0,0
+997,GP-997,Freuchen Medical Centre,0,4,0,2,2,0,0,0,0,0,0,0,0
+998,GP-998,Uxendon Crescent Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+999,GP-999,Pimlico Health at The Marven Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0
+1000,GP-1000,Willesden Green Surgery,64,97,5,24,5,11,3,71,4,14,4,8,3
+1001,GP-1001,St. Margarets Practice,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,GP-000,Greenford Road Medical Centre,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,GP-000,Greenford Road Medical Centre,0,2,0,0,0,0,0,0,0,0,0,0,0

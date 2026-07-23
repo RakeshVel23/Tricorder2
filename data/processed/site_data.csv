@@ -1,0 +1,97 @@
+site_name,patient_count,rec_count,poor_pcg_count,poor_ecg_count,murmur_flag_count,low_ef_flag_count,af_flag_count,assigned_rec_count,assigned_poor_pcg_count,assigned_poor_ecg_count,assigned_murmur_flag_count,assigned_low_ef_flag_count,assigned_af_flag_count,postcode,latitude,longitude
+Acorn Medical Centre,2,18,0,7,0,3,0,2,0,0,0,1,0,UB10 9JN,51.542328,-0.451665
+Acrefield Surgery,0,2,0,0,0,0,0,0,0,0,0,0,0,HA4 0QR,51.562227,-0.382288
+Allendale Road Surgery,12,38,0,12,1,5,1,13,0,4,1,1,0,,,
+Alperton Medical Centre,1,13,0,3,0,1,1,1,0,0,0,0,0,HA0 4JB,51.542878,-0.294196
+Ashchurch Medical Centre,126,226,62,63,38,13,4,133,46,1,9,8,4,,,
+Barlby Surgery,54,89,1,17,6,6,3,54,0,1,4,4,2,W10 6DZ,51.522364,-0.217194
+Belgravia Surgery,10,18,0,1,1,0,2,10,0,0,1,0,2,SW1W 9PY,51.495005,-0.148535
+Brampton Health Centre,3,97,2,7,6,15,3,4,0,0,0,0,0,NW9 9BY,51.586101,-0.277362
+Brook Green Medical Centre,12,60,1,6,2,1,3,12,0,0,1,1,1,W6 7EG,51.495164,-0.220921
+Bush Doctors,219,461,19,36,44,72,39,238,8,5,21,37,28,,,
+Canberra Old Oak Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0,W12 7FG,51.510846,-0.235197
+Carlton Surgery,77,195,6,18,16,24,26,89,2,1,8,14,9,TW14 0AX,51.453337,-0.404576
+Chestnut Practice,565,881,32,37,41,171,37,565,2,0,15,83,16,TW3 3LN,51.468263,-0.371733
+Chiswick Family Practice E85130,144,196,5,10,13,13,13,157,2,0,8,11,10,,,
+Chiswick Health Practice,35,151,7,21,8,11,9,37,5,1,2,3,1,W4 1RX,51.493563,-0.259879
+Church End Medical Centre,9,128,1,28,11,7,3,10,0,0,1,2,0,NW10 9HP,51.547572,-0.253218
+Church Lane Surgery,657,893,25,47,55,62,28,664,9,8,30,35,21,YO51 9BD,54.093564,-1.393648
+Civic Medical Centre,5,8,0,1,0,0,0,5,0,0,0,0,0,CH63 7RX,53.350243,-3.004812
+Crawford Street Surgery,0,0,0,0,0,0,0,0,0,0,0,0,0,W1H 2HJ,51.519323,-0.161199
+Crosslands Surgery,148,608,26,85,77,72,32,149,5,4,15,19,13,UB2 5QY,51.491314,-0.373246
+Cuckoo Lane Practice,7,66,4,6,6,13,1,8,1,0,0,3,1,,,
+Earls Court Surgery,32,276,14,39,23,17,16,39,4,0,5,3,2,SW5 9JA,51.488721,-0.191873
+Ellis Practice,8,42,3,4,9,7,0,8,0,0,0,1,0,HA9 9FX,51.563896,-0.276528
+Fitzrovia Medical Centre,68,122,11,9,6,20,7,68,2,1,5,10,4,W1T 6EU,51.52236,-0.139929
+Foreland Medical Centre,19,91,3,17,7,12,3,21,0,0,1,4,0,,,
+Forty Willows Surgery,16,27,0,3,2,3,1,17,0,1,2,1,1,HA9 9HA,51.565788,-0.270656
+Freuchen Medical Centre,6,29,4,8,3,1,2,7,1,1,0,0,0,NW10 4ST,51.534533,-0.242975
+Gladstone Medical Centre,298,837,30,79,50,142,61,317,7,7,10,50,24,NW2 6JH,51.558733,-0.246096
+Golborne Medical Centre E87742,47,286,18,53,25,28,17,49,1,2,6,3,3,,,
+Golbourne Medical Centre,6,27,1,3,1,2,1,6,1,2,0,0,0,,,
+Great Chapel Street Medical Centre,56,127,9,6,7,20,4,56,2,1,4,13,2,W1D 3HZ,51.514525,-0.131889
+Greenford Road Medical Centre,206,431,3,62,30,27,16,227,2,2,15,16,9,,,
+Grove Park Terrace Surgery,105,256,10,38,21,29,10,109,3,2,13,20,3,W4 3JL,51.48467,-0.27331
+Guru Nanak Medical Centre,13,45,0,4,1,5,0,13,0,0,0,1,0,UB1 1EQ,51.511775,-0.387131
+Half Penny Steps Health Care,3,8,0,1,0,0,0,4,0,1,0,0,0,,,
+Hammersmith Surgery,35,319,7,46,41,45,26,38,0,1,5,9,7,W6 9DU,51.490967,-0.227048
+Headstone Road Surgery,63,143,0,18,14,16,7,66,0,1,5,8,3,HA1 1PG,51.58377,-0.34089
+High Street Surgery,125,271,15,71,25,23,4,127,1,5,12,13,2,S62 6LW,53.459642,-1.344031
+Hillcrest Surgery,13,147,1,3,10,10,6,14,0,0,1,2,1,W3 9LA,51.508183,-0.27196
+Holland Park Surgery,19,150,2,57,29,16,18,21,0,2,3,3,5,W8 7RX,51.501413,-0.194411
+Honeypot Medical Centre,55,79,0,12,3,2,7,57,0,3,2,2,6,HA7 1JP,51.59699,-0.294522
+Kensington Park Medical Centre,86,301,24,54,27,44,13,88,1,2,12,19,8,W14 8HW,51.497326,-0.208764
+Kingfisher Practice,17,34,3,6,2,2,0,17,0,0,0,1,0,LU2 9SB,51.892339,-0.36944
+Kings Road Surgery,2,3,0,2,0,0,0,2,0,1,0,0,0,HA2 9JJ,51.568984,-0.377372
+Lancaster Gate Medical Centre,32,122,12,40,17,16,3,32,2,0,4,6,1,W2 3ET,51.511754,-0.183337
+Mapesbury Medical Group,1,314,11,46,101,103,49,1,0,0,0,1,1,NW2 3PS,51.551499,-0.209448
+Marylebone Health Centre,35,73,6,14,3,8,2,42,4,6,2,6,2,NW1 5LT,51.52284,-0.151514
+Mayfair Medical Centre,187,453,28,41,52,47,15,201,12,3,24,15,5,W1K 5LS,51.513538,-0.150147
+Meadow View Surgery,836,1759,123,203,204,153,42,851,11,11,52,47,14,,,
+Mount Medical Centre,4,8,0,1,1,1,1,5,0,0,0,1,1,TW13 6AJ,51.4406,-0.387768
+Neasden Medical Centre,13,32,2,10,2,2,0,13,1,1,1,1,0,NW2 7SA,51.559617,-0.247476
+New Surgery,154,351,9,33,37,43,29,161,0,2,7,11,7,,,
+North End Medical Centre,58,110,1,13,5,9,6,59,0,2,3,6,5,W14 9PR,51.487802,-0.204053
+North Hyde Practice,18,34,0,4,2,1,1,18,0,3,1,1,1,,,
+Oldfield Family Practice,161,308,8,31,32,44,27,170,2,6,20,30,13,UB6 8RA,51.530436,-0.351047
+Otterfield Medical Centre,93,341,7,73,37,47,16,102,0,2,14,17,9,UB7 8PE,51.514659,-0.470201
+Oxford Drive Medical Centre,100,171,5,13,12,13,5,101,2,2,5,8,5,HA4 9EY,51.567742,-0.392986
+Oxgate Gardens Surgery,2,17,0,7,1,3,0,2,0,0,0,0,0,NW2 6EA,51.564483,-0.227767
+Park Medical Centre,40,234,7,34,16,33,23,42,2,0,4,6,6,PE1 2UF,52.581561,-0.238048
+Perivale Medical Clinic,46,240,20,48,15,23,11,46,2,3,2,3,1,UB6 8HX,51.535112,-0.333907
+Pimlico Health at The Marven Surgery,0,11,0,3,0,1,0,0,0,0,0,0,0,SW1V 3EB,51.48845,-0.137752
+Pinn Medical Centre,89,283,21,34,26,27,20,94,4,1,11,9,12,,,
+Premier Medical Centre,13,31,0,9,5,5,1,13,0,0,2,2,1,HA0 4UZ,51.549714,-0.306762
+Preston Hill Surgery,0,3,0,0,0,0,0,0,0,0,0,0,0,HA3 9SN,51.580102,-0.288949
+Preston Medical Centre,28,40,2,5,5,5,3,29,2,1,4,3,2,HA9 8JZ,51.564337,-0.292556
+Preston Road Surgery,212,361,19,64,27,29,7,217,8,4,13,18,4,HA9 8LB,51.564911,-0.292419
+Randolph Surgery,157,468,27,12,18,46,12,157,3,2,3,8,3,,,
+Redwood Practice,447,711,16,17,33,40,23,461,7,2,18,28,17,TW3 2DY,51.461125,-0.359593
+Roundwood Park Medical Centre,7,35,0,9,1,1,0,7,0,0,0,0,0,NW10 3RY,51.542838,-0.235502
+Roxbourne Medical Centre,211,415,4,50,26,28,8,213,0,2,7,8,5,HA2 0UE,51.56732,-0.363104
+Spring Grove Medical Practice,592,1076,51,38,110,123,53,690,15,1,65,65,29,TW7 4HG,51.474357,-0.345828
+St. Andrews Medical Centre,0,1,0,0,0,0,0,0,0,0,0,0,0,,,
+St. George's Medical Center,344,432,4,17,20,34,3,369,2,5,17,28,2,,,
+St. Margarets Practice,8,15,2,7,1,1,1,8,0,2,0,1,1,TW1 1NE,51.459402,-0.323034
+St. Peter's Medical Centre,31,636,17,77,21,137,27,32,0,1,1,4,2,HA1 4BS,51.576534,-0.350678
+Stanley Corner Medical Centre,4,18,0,0,0,0,0,4,0,0,0,0,0,HA0 4JF,51.544253,-0.296596
+Sudbury Surgery,38,61,5,17,4,16,5,38,2,6,2,10,4,HA0 3HG,51.558198,-0.316373
+The Chelsea Practice,26,86,3,13,10,12,5,26,0,0,4,2,2,SW3 5DD,51.486806,-0.166987
+The Lilyville Surgery,10,29,2,1,4,7,2,11,1,0,2,1,1,SW6 4UL,51.47377,-0.199131
+The Lonsdale Medical Centre,7,25,1,5,1,2,1,7,0,1,0,0,0,NW6 6RR,51.536899,-0.204456
+The Practice Feltham,21,97,7,15,9,6,5,21,3,1,2,2,1,TW13 4GU,51.446367,-0.411065
+The Practice Heart of Hounslow,6,34,0,7,2,4,0,7,0,0,1,2,0,TW3 3LN,51.468263,-0.371733
+The Southall Medical Centre,1,1,0,0,0,0,0,1,0,0,0,0,0,,,
+The Westway Surgery,29,412,27,38,32,58,27,30,1,0,6,11,5,W12 0PT,51.514207,-0.247606
+The Willesden Medical Centre,99,528,26,84,35,57,40,101,9,0,6,10,9,NW10 2PT,51.547534,-0.233849
+Townfield Doctors Surgery,173,282,14,54,21,25,15,175,9,4,17,23,13,UB3 3DZ,51.515844,-0.4112
+Uxendon Crescent Surgery,10,30,0,3,0,3,0,10,0,0,0,1,0,HA9 8NL,51.566899,-0.294322
+Victoria Medical Centre,43,226,6,20,15,28,13,45,0,3,2,5,3,NE31 1NU,54.973937,-1.521601
+Walnut Way Surgery,23,44,1,2,2,14,0,23,0,0,0,2,0,,,
+Warren Practice,5,40,1,3,3,3,4,5,0,0,0,2,0,,,
+Wembley Park Drive Medical Centre,61,280,9,35,23,13,9,65,0,2,6,7,5,,,
+West End Surgery,21,287,20,39,33,33,12,21,4,0,3,9,5,NG9 1EH,52.923882,-1.218396
+Willesden Green Surgery,83,200,6,35,8,11,10,91,4,14,5,8,4,NW2 3UY,51.55376,-0.216211
+Willow Tree Family Doctors,5634,8355,409,485,637,1183,473,5673,47,18,193,453,204,NW9 9AD,51.58934,-0.2652
+Woodfield Road Medical Centre,5,19,3,8,3,2,1,5,1,0,0,2,1,W9 3XZ,51.52272,-0.197561
+Yiewsley Family Practice,5,25,1,2,1,2,1,5,1,0,0,1,1,UB7 7DP,51.511901,-0.472426
