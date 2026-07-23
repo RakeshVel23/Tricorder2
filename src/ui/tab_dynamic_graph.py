@@ -24,8 +24,8 @@ def dynamic_graph_ui():
             "Select Practices to Plot",
             ui.p(
                 "Click on rows to select practices. Hold Shift and Ctrl/Cmd to select multiple. "
-                "(Note: 'Active GPs' refers to registered GPs with at least 1 recording)"
-                "CLick on the headings of the table to sort by the specified variable",
+                "(Note: 'Active GPs' refers to registered GPs with at least 1 recording) "
+                "Click on the headings of the table to sort by the specified variable",
                 style="color: var(--color-text-secondary); font-size: 0.85rem;"
             ),
             ui.div(
