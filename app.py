@@ -1,7 +1,7 @@
 """
 app.py
 ------
-Main entry point for the Landmark Tricorder Dashboard.
+Main entry point for Tricorder Dashboard.
 
 Orchestrates authentication, data loading, metric calculation,
 and rendering of the tabs.
@@ -145,7 +145,7 @@ def server(input, output, session):
         if not is_authenticated():
             return ui.div(
                 ui.div(
-                    ui.h3("Landmark Tricorder Dashboard", class_="mb-3"),
+                    ui.h3("Tricorder Dashboard", class_="mb-3"),
                     ui.p("Please enter the password to access the dashboard.", class_="text-muted"),
                     ui.input_password("password_input", "", placeholder="Enter password..."),
                     ui.input_action_button("login_btn", "Login", class_="btn-primary w-100 mt-2"),
