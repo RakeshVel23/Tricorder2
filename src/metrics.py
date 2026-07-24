@@ -12,6 +12,7 @@ from typing import Any, Dict
 
 import numpy as np
 import pandas as pd
+from scipy.stats import chisquare
 
 logger = logging.getLogger(__name__)
 
@@ -285,3 +286,64 @@ def compute_programme_weekly(weekly_df: pd.DataFrame) -> pd.DataFrame:
     programme["cumulative"] = programme["total_weekly"].cumsum()
 
     return programme
+
+
+# ---------------------------------------------------------------
+# Statistical tests (Section Dynamic Graph)
+# ---------------------------------------------------------------
+
+def compute_gini_coefficient(raw_counts: pd.Series) -> float:
+    """Calculates the Gini coefficient of a series of raw counts."""
+    if len(raw_counts) == 0 or raw_counts.sum() == 0:
+        return 0.0
+    
+    sorted_x = np.sort(raw_counts.values)
+    n = len(sorted_x)
+    index = np.arange(1, n + 1)
+    return ((np.sum((2 * index - n  - 1) * sorted_x)) / (n * np.sum(sorted_x)))
+
+def compute_chi_squared_tests(practices: list, raw_counts: list) -> pd.DataFrame:
+    """
+    Computes a Chi-squared goodness of fit test for each practice, 
+    comparing its raw count against the average of the group.
+    """
+    n = len(raw_counts)
+    if n == 0:
+        return pd.DataFrame()
+        
+    observed = np.array(raw_counts)
+    total_count = np.sum(observed)
+    expected_val = total_count / n
+    
+    results = []
+    alpha_adjusted = 0.05 / n if n > 0 else 0.05
+    
+    for i in range(n):
+        obs_i = observed[i]
+        obs_rest = total_count - obs_i
+        exp_i = expected_val
+        exp_rest = total_count - exp_i
+        
+        if exp_i <= 0 or exp_rest <= 0:
+            p_value = 1.0
+        else:
+            chi_stat, p_value = chisquare([obs_i, obs_rest], f_exp=[exp_i, exp_rest])
+            
+        is_significant = p_value < alpha_adjusted
+        status = "Average"
+        if is_significant:
+            if obs_i > exp_i:
+                status = "Over-performer"
+            else:
+                status = "Under-performer"
+                
+        results.append({
+            "Practice": practices[i],
+            "Observed": obs_i,
+            "Expected": expected_val,
+            "p_value": p_value,
+            "is_significant": is_significant,
+            "Status": status
+        })
+        
+    return pd.DataFrame(results)

@@ -29,12 +29,7 @@ from src.utils import df_to_csv_bytes, format_number, format_rate, format_ratio
 def practice_ui():
     return ui.div(
         # --- Selector ---
-        ui.input_selectize(
-            "practice_select",
-            "Select practice:",
-            choices=[],
-            width="100%",
-        ),
+        ui.output_ui("practice_selector_ui"),
 
         # --- Practice Summary ---
         ui.output_ui("practice_summary"),
@@ -114,12 +109,7 @@ def practice_ui():
         # --- Multi-practice Comparison Mode ---
         panel_card(
             "Practice Comparison Mode",
-            ui.input_selectize(
-                "comparison_practices",
-                "Select up to 10 practices to compare:",
-                choices=[],
-                multiple=True,
-            ),
+            ui.output_ui("comparison_practices_ui"),
             ui.output_ui("comparison_limit_warning"),
             output_widget("comparison_chart"),
         ),
@@ -129,13 +119,29 @@ def practice_ui():
 @module.server
 def practice_server(input, output, session, data):
 
-    # --- Populate Selectors ---
-    @reactive.effect
-    def _populate_selectors():
+    # --- Populate Selectors dynamically ---
+    @render.ui
+    def practice_selector_ui():
         d = data()
         names = sorted(d.site_df["site_name"].unique().tolist())
-        ui.update_selectize("practice_select", choices=names, selected=names[0] if names else None)
-        ui.update_selectize("comparison_practices", choices=names)
+        return ui.input_selectize(
+            "practice_select",
+            "Select practice:",
+            choices=names,
+            selected=names[0] if names else None,
+            width="100%",
+        )
+
+    @render.ui
+    def comparison_practices_ui():
+        d = data()
+        names = sorted(d.site_df["site_name"].unique().tolist())
+        return ui.input_selectize(
+            "comparison_practices",
+            "Select up to 10 practices to compare:",
+            choices=names,
+            multiple=True,
+        )
 
     # --- Filtered Data for Selected Practice ---
     @reactive.calc

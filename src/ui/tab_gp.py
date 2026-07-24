@@ -27,12 +27,7 @@ from src.utils import format_number, format_rate, format_ratio
 def gp_ui():
     return ui.div(
         # --- Selector ---
-        ui.input_selectize(
-            "gp_select",
-            "Select GP:",
-            choices=[],
-            width="100%",
-        ),
+        ui.output_ui("gp_selector_ui"),
 
         # --- Summary ---
         ui.output_ui("gp_summary"),
@@ -71,33 +66,37 @@ def gp_ui():
             ),
         ),
 
-        # --- Limitation Note ---
-        info_banner(
-            "GP-level weekly data is not available in Version 1. "
-            "The chart above shows this GP's cumulative utilisation "
-            "alongside the weekly trend for their associated practice."
-        ),
+    #     # --- Limitation Note ---
+    #     info_banner(
+    #         "GP-level weekly data is not available in Version 1. "
+    #         "The chart above shows this GP's cumulative utilisation "
+    #         "alongside the weekly trend for their associated practice."
+    #     ),
 
-        # --- Combined Graph: GP cumulative + practice weekly ---
-        panel_card(
-            "GP Cumulative vs Practice Weekly Trend",
-            output_widget("gp_combined_chart"),
-        ),
+    #     # --- Combined Graph: GP cumulative + practice weekly ---
+    #     panel_card(
+    #         "GP Cumulative vs Practice Weekly Trend",
+    #         output_widget("gp_combined_chart"),
+    #     ),
     )
 
 
 @module.server
 def gp_server(input, output, session, data):
 
-    @reactive.effect
-    def _populate_gp_selector():
+    @render.ui
+    def gp_selector_ui():
         d = data()
-        # Build options: GP-001 (Practice Name)
         options = {
             row["gp_label"]: f"{row['gp_label']} — {row['site_name']}"
             for _, row in d.gp_df.iterrows()
         }
-        ui.update_selectize("gp_select", choices=options)
+        return ui.input_selectize(
+            "gp_select",
+            "Select GP:",
+            choices=options,
+            width="100%",
+        )
 
     @reactive.calc
     def selected_gp():
@@ -191,7 +190,7 @@ def gp_server(input, output, session, data):
 
         fig = go.Figure()
         fig.add_trace(go.Bar(
-            x=["This GP", "Practice avg\n(all GPs)", "Practice avg\n(active GPs)", "National\nmedian (active)"],
+            x=["This GP", "Practice avg\n(all GPs)", "Practice avg\n(active GPs)", "Regional\nmedian (active)"],
             y=[gp_val, avg_per_registered, avg_per_active, median_all],
             marker_color=["#1a73e8", "#dadce0", "#34a853", "#fbbc04"],
         ))
@@ -270,52 +269,52 @@ def gp_server(input, output, session, data):
             )
         return content
 
-    # --- Combined Graph ---
-    @render_widget
-    def gp_combined_chart():
-        g = selected_gp()
-        if g is None:
-            fig = go.Figure()
-            fig.update_layout(template="plotly_white", paper_bgcolor="rgba(0,0,0,0)", height=300)
-            return fig
+    # # --- Combined Graph ---
+    # @render_widget
+    # def gp_combined_chart():
+    #     g = selected_gp()
+    #     if g is None:
+    #         fig = go.Figure()
+    #         fig.update_layout(template="plotly_white", paper_bgcolor="rgba(0,0,0,0)", height=300)
+    #         return fig
 
-        d = data()
-        practice_name = g["site_name"]
-        wk = d.weekly_df[d.weekly_df["site_name"] == practice_name].copy()
+    #     d = data()
+    #     practice_name = g["site_name"]
+    #     wk = d.weekly_df[d.weekly_df["site_name"] == practice_name].copy()
 
-        if wk.empty:
-            fig = go.Figure()
-            fig.add_annotation(text="No weekly data for this practice", showarrow=False)
-            fig.update_layout(template="plotly_white", paper_bgcolor="rgba(0,0,0,0)", height=300)
-            return fig
+    #     if wk.empty:
+    #         fig = go.Figure()
+    #         fig.add_annotation(text="No weekly data for this practice", showarrow=False)
+    #         fig.update_layout(template="plotly_white", paper_bgcolor="rgba(0,0,0,0)", height=300)
+    #         return fig
 
-        fig = go.Figure()
+    #     fig = go.Figure()
 
-        # Practice weekly trend
-        fig.add_trace(go.Scatter(
-            x=wk["week_start"], y=wk["weekly_recordings"],
-            mode="lines", name="Practice weekly",
-            line=dict(color="#dadce0", width=1),
-            yaxis="y",
-            connectgaps=False,
-        ))
+    #     # Practice weekly trend
+    #     fig.add_trace(go.Scatter(
+    #         x=wk["week_start"], y=wk["weekly_recordings"],
+    #         mode="lines", name="Practice weekly",
+    #         line=dict(color="#dadce0", width=1),
+    #         yaxis="y",
+    #         connectgaps=False,
+    #     ))
 
-        # GP horizontal line (total cumulative)
-        fig.add_hline(
-            y=g["rec_count"],
-            line_dash="dash",
-            line_color="#1a73e8",
-            annotation_text=f"{g['gp_label']} total: {g['rec_count']}",
-            annotation_font_color="#1a73e8",
-        )
+    #     # GP horizontal line (total cumulative)
+    #     fig.add_hline(
+    #         y=g["rec_count"],
+    #         line_dash="dash",
+    #         line_color="#1a73e8",
+    #         annotation_text=f"{g['gp_label']} total: {g['rec_count']}",
+    #         annotation_font_color="#1a73e8",
+    #     )
 
-        fig.update_layout(
-            template="plotly_white",
-            paper_bgcolor="rgba(0,0,0,0)",
-            plot_bgcolor="rgba(0,0,0,0)",
-            margin=dict(l=40, r=20, t=20, b=40),
-            height=350,
-            xaxis_title="Week",
-            yaxis_title="Recordings",
-        )
-        return fig
+    #     fig.update_layout(
+    #         template="plotly_white",
+    #         paper_bgcolor="rgba(0,0,0,0)",
+    #         plot_bgcolor="rgba(0,0,0,0)",
+    #         margin=dict(l=40, r=20, t=20, b=40),
+    #         height=350,
+    #         xaxis_title="Week",
+    #         yaxis_title="Recordings",
+    #     )
+    #     return fig
