@@ -60,6 +60,20 @@ def practice_ui():
                     ui.input_switch("show_inactive_gps", "Include inactive GPs", value=False),
                     output_widget("gp_contribution_chart"),
                 ),
+                panel_card(
+                    "GP Statistical Tests",
+                    ui.p("Note: Calculations use raw recording counts. Based on the selected practice's GPs.", class_="text-muted", style="font-size: 0.8rem;"),
+                    ui.output_ui("practice_gini_ui"),
+                    ui.hr(),
+                    ui.h6("Chi-Squared Test (Bonferroni)"),
+                    ui.input_radio_buttons(
+                        "practice_chi_filter", 
+                        "Show Significant:", 
+                        {"both": "Both", "over": "Over-performers", "under": "Under-performers"}, 
+                        inline=True
+                    ),
+                    ui.output_ui("practice_chi_squared_ui"),
+                ),
             ),
             ui.column(
                 5,
@@ -295,6 +309,61 @@ def practice_server(input, output, session, data):
             showlegend=True,
         )
         return fig
+
+    # --- Estadísticas de GPs (Gini, Chi-Squared) ---
+    @render.ui
+    def practice_gini_ui():
+        gps = selected_gps()
+        if gps.empty:
+            return ui.p("—")
+        if not input.show_inactive_gps():
+            gps = gps[gps["rec_count"] > 0]
+            
+        from src.metrics import compute_gini_coefficient
+        gini = compute_gini_coefficient(gps["rec_count"])
+        return ui.div(
+            ui.span("Gini Coefficient: ", class_="fw-bold"),
+            ui.span(f"{gini:.3f}")
+        )
+        
+    @render.ui
+    def practice_chi_squared_ui():
+        gps = selected_gps()
+        if gps.empty:
+            return ui.p("—")
+        if not input.show_inactive_gps():
+            gps = gps[gps["rec_count"] > 0]
+            
+        from src.metrics import compute_chi_squared_tests
+        df_chi = compute_chi_squared_tests(gps["gp_label"].tolist(), gps["rec_count"].tolist())
+        
+        if df_chi.empty:
+            return ui.p("No data for tests.")
+            
+        filter_val = input.practice_chi_filter()
+        if filter_val == "over":
+            filtered_df = df_chi[(df_chi["is_significant"]) & (df_chi["Status"] == "Over-performer")]
+        elif filter_val == "under":
+            filtered_df = df_chi[(df_chi["is_significant"]) & (df_chi["Status"] == "Under-performer")]
+        else:
+            filtered_df = df_chi[df_chi["is_significant"]]
+            
+        if filtered_df.empty:
+            return ui.p("No significant GPs found.")
+            
+        items = []
+        for _, row in filtered_df.iterrows():
+            color = "green" if row["Status"] == "Over-performer" else "red"
+            items.append(
+                ui.tags.li(
+                    ui.span(f"{row['Practice']}: ", class_="fw-bold"),
+                    ui.span(f"{row['Observed']} (Expected {row['Expected']:.1f}) ", style=f"color: {color};"),
+                    ui.span(f"[p={row['p_value']:.2e}]", style="font-size: 0.8rem; color: #666;")
+                )
+            )
+        return ui.div(
+            ui.tags.ul(*items, style="padding-left: 20px; max-height: 200px; overflow-y: auto; margin-top: 10px;")
+        )
 
     # --- Panel de dependencia ---
     @render.ui
